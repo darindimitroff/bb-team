@@ -355,6 +355,14 @@ blockquote
     box-shadow: 4px 0 0 0 $text-green inset;
 }
 
+.citation {
+    color: $dark-green;
+}
+
+.intro {
+    font-weight: 500;
+}
+
 .pull-quote
 {
     @include tablet
@@ -745,10 +753,6 @@ nav
     font-size: 12px;
     font-weight: 600;
     line-height: 20px;
-
-    position: fixed;
-    z-index: 2;
-    top: 0;
 
     width: 100%;
 
