@@ -1,65 +1,58 @@
-/*------------------------------------*\
-    $VARIABLES
-\*------------------------------------*/
+//MAIN COLORS
+$white: rgba(250, 250, 250, 1);
+$grey: rgba(156, 157, 166, 1);
+$black: rgba(84, 84, 89, 1);
+$light-green: rgba(139, 197, 65, 1);
+$text-green: rgba(124, 186, 43, 1);
+$dark-green: rgba(8, 148, 71, 1);
+$highlight-green: rgba(213, 245, 171, 1);
+$red: rgba(255, 97, 107, 1);
+$yellow: rgba(255, 189, 56, 1);
+$blue: rgba(87, 167, 247, 1);
 
-//Colors
-$gray : #808080;
-$gray-light : #f9f9f9;
-$gray-light-2 : #eee;
-$gray-light-3 : #ddd;
-$gray-med : #666;
-$gray-dark : #333;
-$gray-dark-2 : #131313;
-$white : #fff;
-$black : #000;
-$dim : rgba(0,0,0,0.5);
-$error : #f00;
-$valid : #089e00;
-$warning : #fff664;
-$information : #000db5;
+//DASHBOARD COLORS
+$food-red: rgba(242, 73, 73, 1);
+$water-blue: rgba(64, 201, 255, 1);
+$shopping-purple: rgba(180, 103, 235, 1);
+$fridge-teal: rgba(104, 237, 233, 1);
+$reading-brown: rgba(191, 138, 77, 1);
+$notes-yellow: rgba(255, 228, 76, 1);
+$measurements-orange: rgba(255, 175, 64, 1);
 
+//Shadows
+$card-shadow: 0 1px 2px 0 rgba(0,0,0,.3);
 
-//Typography
-$font : "HelveticaNeue", "Helvetica", "Arial", sans-serif;
-$font-secondary : Georgia, Times, "Times New Roman", serif;
+//MEDIA QUERIES
+@mixin phablet
+{
+    @media (min-width: 550px)
+    {
+        @content;
+    }
+}
 
-$font-size-small : 0.75em;
-$font-size-small-2 : 0.875em;
-$font-size-med : 1em;
-$font-size-med-2: 1.0625em;
-$font-size-large : 1.4375em;
+@mixin tablet
+{
+    @media (min-width: 750px)
+    {
+        @content;
+    }
+}
 
+@mixin desktop
+{
+    @media(min-width: 1000px)
+    {
+        @content;
+    }
+}
 
-//Layout
-$max-width: 72em;
-
-//Defaults
-$space : 1em;
-$space-and-half : $space*1.5;
-$space-double : $space*2;
-$space-quad : $space*4;
-$space-half : $space/2;
-$pad : 1em;
-$pad-and-half : $pad*1.5;
-$pad-double : $pad*2;
-$pad-half : $pad/2;
-$pad-quarter :$pad/4;
-
-//Borders
-$border-med: 3px;
-$border-thick: 7px;
-
-
-//Breakpoints
-$bp-small : 24em;
-$bp-small-2 : 29.75em;
-$bp-small-3 : 39.8em;
-$bp-med : 46.8em;
-$bp-med-2 : 48em;
-$bp-large : 50em;
-$bp-large-2 : 66em;
-$bp-xl : 73em;
-$bp-xxl : 89em;
-$bp-xxxl : 93em;
+@mixin desktopHD
+{
+    @media (min-width: 1900px)
+    {
+        @content;
+    }
+}
 
 //

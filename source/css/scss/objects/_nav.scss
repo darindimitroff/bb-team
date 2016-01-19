@@ -1,52 +1,197 @@
-/*------------------------------------*\
-    $NAVIGATION
-\*------------------------------------*/
+nav
+{
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 20px;
 
-.nav {
-	clear: both;
-	overflow: hidden;
-	max-height: 0;
-	
-	a {
-		display: block;
-		padding: $pad;
-		border-top: 1px solid $gray-light-2;
-	}
+    width: 100%;
 
-	&.active {
-		max-height: 40em;
-	}
-
-	@media all and (min-width: $bp-med) {
-		max-height: none;
-		float: right;
-		clear: none;
-
-		li {
-			float: left;
-		}
-
-		a {
-			border: 0;
-		}
-		
-	}
+    @include desktop
+    {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 27px;
+    }
 }
 
-//Pagination
-.pagination {
-	overflow: hidden;
+.nav-wrapper
+{
+    z-index: 2;
 
-	li {
-		float: left;
-		border-right: 1px solid $gray-light-2;
+    display: flex;
 
-		&:last-child {
-			border: 0;
-		}
-	}
+    width: 100%;
+    padding: 0 1.25rem;
 
-	a {
-		padding: $pad;
-	}
+    text-align: center;
+
+    color: $grey;
+    background-color: rgba(255, 255, 255, 1);
+
+    flex-wrap: wrap;
+    justify-content: space-between;
+    @include desktop
+    {
+        flex-wrap: nowrap;
+    }
+}
+
+.main-nav
+{
+    display: flex;
+
+    margin: 0 -1.25rem;
+
+    background-color: #fff;
+
+    flex-basis: 120%;
+    order: 4;
+    @include desktop
+    {
+        margin: 0;
+
+        order: 2;
+        flex: 1;
+    }
+}
+
+.logo
+{
+    width: 111px;
+    padding-top: 12px;
+
+    order: 2;
+    @include desktop
+    {
+        padding-top: 18px;
+
+        order: 1;
+    }
+
+    svg
+    {
+        max-width: 111px;
+    }
+}
+
+.navlink
+{
+    margin: 0;
+    padding: 12px 0;
+
+    cursor: pointer;
+    transition: $hover-transition;
+
+    flex: 1;
+    @include desktop
+    {
+        padding: 18px 0;
+    }
+}
+
+.navlink:after
+{
+    position: absolute;
+    top: 50%;
+    right: 0;
+
+    width: 1px;
+    height: 50%;
+
+    content: '';
+    transform: translateY(-50%);
+
+    background-color: #bbb;
+}
+
+.navlink:last-child:after
+{
+    opacity: 0;
+}
+
+.nav-icon
+{
+    display: block;
+
+    width: 36px;
+    height: 36px;
+    margin: 0 auto 4px auto;
+
+    @include desktop
+    {
+        display: inline-block;
+
+        margin: 0 .5rem 0 0;
+
+        vertical-align: -40%;
+    }
+}
+
+.navlink-myBBteam
+{
+    @extend .navlink;
+    &:hover
+    {
+        color: $text-green;
+    }
+}
+
+.navlink-read
+{
+    @extend .navlink;
+    &:hover
+    {
+        color: $yellow;
+    }
+}
+
+.navlink-store
+{
+    @extend .navlink;
+    &:hover
+    {
+        color: $red;
+    }
+}
+
+.navlink-forum
+{
+    @extend .navlink;
+    &:hover
+    {
+        color: $blue;
+    }
+}
+
+
+.profile
+{
+    width: 36px;
+    padding-top: 12px;
+
+    color: $grey;
+
+    order: 1;
+    @include setFontColorAndHover($grey);
+    @include desktop
+    {
+        margin-right: 20px;
+        margin-left: 0;
+        padding-top: 18px;
+
+        order: 3;
+    }
+}
+
+.search
+{
+    width: 36px;
+    padding-top: 12px;
+
+    order: 4;
+    @include setFontColorAndHover($grey);
+    @include desktop
+    {
+        padding-top: 18px;
+    }
 }

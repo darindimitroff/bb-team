@@ -1,0 +1,59 @@
+.add-water-wrapper
+{
+    display: flex;
+
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    p
+    {
+        margin-bottom: 0;
+    }
+}
+
+.add-water
+{
+    font-size: .75rem;
+    font-weight: 500;
+
+    display: flex;
+
+    margin-bottom: 1rem;
+    padding: 18px 0 6px 0;
+
+    cursor: pointer;
+    transition: $hover-transition;
+
+    border-radius: 8px;
+
+    flex: 1 33.33%;
+    flex-wrap: wrap;
+    justify-content: center;
+    @include tablet
+    {
+        margin-bottom: 0;
+    }
+    object
+    {
+        margin-bottom: 8px;
+
+        @include desktop
+        {
+            margin-bottom: 9px;
+        }
+    }
+    p
+    {
+        width: 100%;
+        margin-bottom: 0;
+
+        text-align: center;
+    }
+    &:hover
+    {
+        background-color: rgba($water-blue, .2);
+    }
+    &:active
+    {
+        background-color: darken(rgba($water-blue, .2),15);
+    }
+}

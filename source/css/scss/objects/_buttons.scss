@@ -1,40 +1,54 @@
-/*------------------------------------*\
-    $BUTTONS
-\*------------------------------------*/
-.btn {
-	display: inline-block;
-	background: $gray-dark;
-	color: $white;
-	line-height: 1;
-	font-weight: bold;
-	padding: $pad;
-	border: 0;
-	text-align: center;
-	
-	&:hover, &:focus {
-		background: $gray;
-		color: $white;
-	}
+button
+{
+    font-size: 16px;
+    font-weight: 500;
 
-	&.disabled {
-		background: $gray-light-2;
-		color: $gray;
-	}
-}
+    margin-bottom: 1.5rem;
+    padding: 8px 16px 7px 16px;
 
-.btn-small {
-	padding: $pad-half;
-}
+    cursor: pointer;
+    transition: $hover-transition;
+    letter-spacing: .6px;
+    text-transform: uppercase;
 
-.btn-large {
-	padding: $pad-half;
-	text-transform: uppercase;
-	background: $gray;
-	font-size: 1.4rem;
-	font-weight: normal;
+    color: #fff;
+    border-radius: 5px;
+
+    @include setBgColorAndHover($light-green);
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 
 
-.text-btn {
-	font-style: italic;
+.ghost-button
+{
+    color: $text-green;
+    background-color: transparent;
+    box-shadow: 0 0 0 2px $text-green inset;
+
+    @extend button;
+}
+
+.ghost-button:hover
+{
+    color: #fff;
+    box-shadow: none;
+
+    @include setBgColorAndHover($light-green);
+}
+
+.grey-button
+{
+    color: $grey;
+    background-color: transparent;
+    box-shadow: 0 0 0 2px $grey inset;
+
+    @extend button;
+}
+
+.grey-button:hover
+{
+    color: #fff;
+    box-shadow: none;
+
+    @include setBgColorAndHover($grey);
 }

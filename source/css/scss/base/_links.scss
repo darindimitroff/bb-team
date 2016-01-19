@@ -1,10 +1,13 @@
-/* Links */ 
-a {
-	color: $gray-dark;
-	text-decoration: none;
-	outline: 0;
-	
-	&:hover, &:focus {
-		color: $gray;
-	}
+.paragraph-container a
+{
+    transition: $hover-transition;
+
+    color: inherit;
+    border-bottom: 3px solid $highlight-green;
+}
+
+.paragraph-container a:hover
+{
+    border-radius: 2px;
+    background-color: $highlight-green;
 }

@@ -13,11 +13,45 @@
 	transition: $transition-property $transition-time $method;
 }
 
-/* Rem Unit font sizes with relative fallback http:/seesparkbox.com/foundry/scss_rem_mixin_now_with_a_better_fallback  
+/* Rem Unit font sizes with relative fallback http:/seesparkbox.com/foundry/scss_rem_mixin_now_with_a_better_fallback
 	Usage: @include font-size(1, large);
 */
 @mixin font-size( $decimal-size, $keyword: null ) {
   @if $keyword{ font-size: $keyword; }
   @else { font-size: $decimal-size * $base-font-multiplier * 16px;}
   font-size: $decimal-size * 1rem;
+}
+
+@mixin setBgColorAndHover($baseColor)
+{
+    transition: $hover-transition;
+
+    background-color: $baseColor;
+
+    -webkit-backface-visibility: hidden;
+    &:hover
+    {
+        background-color: darken($baseColor, 7%);
+    }
+    &:active
+    {
+        transform: scale(.98);
+
+        background-color: lighten($baseColor, 7%);
+    }
+}
+
+@mixin setFontColorAndHover($baseColor)
+{
+    transition: $hover-transition;
+
+    color: $baseColor;
+    &:hover
+    {
+        color: darken($baseColor, 7%);
+    }
+    &:active
+    {
+        color: lighten($baseColor, 7%);
+    }
 }

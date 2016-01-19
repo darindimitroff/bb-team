@@ -1,0 +1,44 @@
+.subNav
+{
+    font-size: 1rem;
+    line-height: 1.5rem;
+
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+
+    overflow-x: scroll;
+
+    width: 100%;
+    margin: 1;
+    padding-left: .75rem;
+
+    transform: translateY(-100%);
+    text-align: left;
+    white-space: nowrap;
+
+    opacity: 1;
+    color: $yellow;
+    background-color: #fff;
+
+    -webkit-overflow-scrolling: touch;
+}
+
+.subNav ul
+{
+    margin: 0;
+}
+
+.subNav-link
+{
+    display: inline-block;
+
+    margin: 0;
+    padding: 1rem .5rem 1rem .5rem;
+}
+
+.active
+{
+    transition: $animation-transition;
+    transform: translateY(0);
+}

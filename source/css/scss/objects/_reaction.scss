@@ -1,0 +1,52 @@
+.foodReaction
+{
+    width: 36px;
+    height: 36px;
+    margin-right: 1rem;
+
+    cursor: pointer;
+    transition: $hover-transition;
+    transform: scale(.8);
+
+    opacity: .5;
+    background-repeat: no-repeat;
+    &:hover
+    {
+        transform: scale(1);
+
+        opacity: 1;
+        opacity: .75;
+    }
+}
+
+.foodReaction-great
+{
+    background-image: url('great.svg');
+
+    @extend .foodReaction;
+}
+
+.foodReaction-meh
+{
+    background-image: url('meh.svg');
+
+    @extend .foodReaction;
+}
+
+.foodReaction-nogood
+{
+    background-image: url('nogood.svg');
+
+    @extend .foodReaction;
+}
+
+.selected-reaction
+{
+    transform: scale(1);
+
+    opacity: 1;
+    &:hover
+    {
+        opacity: 1;
+    }
+}

@@ -1,111 +1,68 @@
-/*------------------------------------*\
-    $FORMS
-\*------------------------------------*/
-form ol, form ul {
-	list-style: none;
-	margin-left: 0;
+.label-wrapper
+{
+    position: relative;
 }
 
-fieldset {
-	border: 0;
-	padding: 0;
-	margin: 0;
-}
+input,
+textarea
+{
+    font-size: 1rem;
+    line-height: 1.5rem;
 
-label {
-	display: block;
-	padding-bottom: $space-half;
-}
+    z-index: 2;
 
-button, input, select, textarea {
-    font-family: inherit;
-    font-size: 100%;
-    margin: 0 1px 0;
-}
+    width: 100%;
+    margin-bottom: 1.5rem;
+    padding: .5rem 0;
 
-input, textarea {
-	width: 100%;
-	border: 1px solid $gray;
-	padding: $pad-half 0.65rem;
-}
+    transition: $hover-transition;
 
-input[type=text], input[type=search], input[type=url], input[type=number], textarea {
-	-webkit-appearance: none;
-}
-
-button, input[type="submit"] {
-	padding: $pad-half;
-	background: $gray-dark;
-	border: 1px solid $gray;
-	cursor: pointer;
-}
-
-input[type="checkbox"],
-input[type="radio"] {
-    width: auto;
-    margin-right: 0.3em;
-}
-
-input[type="search"] {
-    -webkit-appearance: none;
+    color: $black;
+    border-bottom: 1px solid $grey;
     border-radius: 0;
+    background-color: transparent;
+    &:hover
+    {
+        border-color: rgba($food-red, .5);
+    }
+    &:focus
+    {
+        border-color: $food-red;
+    }
+    &:hover + label
+    {
+        color: $food-red;
+    }
+    &:focus + label
+    {
+        transform: translateY(-50%) scale(.75);
+        transform-origin: top left;
+
+        color: $food-red;
+    }
+    &:valid + label
+    {
+        transform: translateY(-50%) scale(.75);
+        transform-origin: top left;
+    }
 }
 
-input[type="search"]::-webkit-search-cancel-button,
-input[type="search"]::-webkit-search-decoration {
-    -webkit-appearance: none;
+textarea
+{
+    height: 6rem;
 }
+label
+{
+    font-size: 1rem;
+    line-height: 1.5rem;
 
-//Form Field Container
-.field-container {
-	margin-bottom: $space;
-}
+    position: absolute;
+    top: 0;
+    left: 0;
 
-.inline-form {
-	fieldset, .inline-container {
-		position: relative;
-	}
-	
-	input[type=submit], button, .btn {
-		font-size: $font-size-small-2;
-		padding: 0.65rem 1.3rem;
-		background: $gray-dark;
-		position: absolute;
-		top: 0;
-		right: 0;
-		z-index: 1;
-		width: auto;
+    padding: .5rem 0;
 
-		&:hover, &:focus {
-			background: $gray;
-			color: $white;
-		}
-	}
-}
+    transition: $hover-transition;
 
-/* Validation */
-.has-error {
-	border-color: $error;
-}
-.is-valid {
-	border-color: $valid;
-}
-
-
-
-
-/*------------------------------------*\
-    $SPECIFIC FORMS
-\*------------------------------------*/
-
-/* Search Form */
-.search-field {
-	padding-right: 3em;
-}
-.inline-form .search-submit {
-	background: none;
-	padding: 0.78em 1em;
-	border: 0;
-	border-left: 1px solid $gray;
-	color: $gray;
+    color: $grey;
 }

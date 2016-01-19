@@ -1,0 +1,29 @@
+section
+{
+    padding: 1.5rem 0rem 1.5rem 0rem;
+}
+
+.container
+{
+    width: 100%;
+    margin: auto;
+    padding: 0 1rem;
+
+    @include desktop
+    {
+        width: 90%;
+        padding: 0rem;
+    }
+    @include desktopHD
+    {
+        width: 80%;
+    }
+}
+
+.paragraph-container
+{
+    max-width: 38rem;
+    margin-bottom: 1.5rem;
+
+    text-align: left;
+}

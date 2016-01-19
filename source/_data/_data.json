@@ -2,28 +2,7 @@
 	"title" : "Pattern Lab",
 	"htmlClass": "pl",
 	"bodyClass": "body",
-	"img": {
-		"landscape-4x3": {
-			"src": "../../images/fpo_4x3.png",
-			"alt": "4x3 Image"
-		},
-		"landscape-16x9": {
-			"src": "../../images/fpo_16x9.png",
-			"alt": "16x9 Image"
-		},
-		"square": {
-			"src": "../../images/fpo_square.png",
-			"alt": "Square Thumbnail"
-		},
-		"avatar" : {
-			"src" : "../../images/fpo_avatar.png",
-			"alt" : "Person Name"
-		},
-		"rectangle": {
-			"src": "http://placeimg.com/400/300/tech",
-			"alt": "Rectangle"
-		}
-	},
+	"img": "../../images/",
 	"headline" : {
 		"short" : "Lorem ipsum dolor sit (37 characters)",
 		"medium" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. (72 characters)"

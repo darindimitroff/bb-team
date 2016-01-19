@@ -1,19 +1,53 @@
-ol, ul {
-	margin: 0;
-	padding: 0;
-	list-style: none;
+li
+{
+    margin-bottom: .5rem;
+    li
+    {
+        margin-left: 1rem;
+    }
 }
 
-/* Definition Lists */
-dl {
-	overflow: hidden;
-	margin: 0 0 $space;
+ul
+{
+    margin-bottom: .5rem;
+
+    list-style: none;
+    ul
+    {
+        margin-top: .5rem;
+    }
 }
 
-dt {
-	font-weight: bold;
+.paragraph-container ul li:before
+{
+    margin-right: .5rem;
+
+    content: '●';
+
+    color: $text-green;
 }
 
-dd {
-	margin-left: 0;
+ol
+{
+    margin-bottom: 1rem;
+
+    list-style: none;
+
+    counter-reset: i 0;
+    ol
+    {
+        margin-top: .5rem;
+    }
+}
+
+.paragraph-container ol li:before
+{
+    font-weight: bold;
+
+    margin-right: .5rem;
+
+    content: counter(i);
+    counter-increment: i;
+
+    color: $text-green;
 }

@@ -1,0 +1,89 @@
+.color-wrapper
+{
+    width: 100%;
+
+    background-color: #fff;
+    box-shadow: $card-shadow;
+}
+
+.color-info
+{
+    padding: 0 .5rem 0 .5rem;
+}
+
+.color
+{
+    width: 100%;
+    margin-bottom: .5rem;
+    padding-bottom: 50%;
+}
+
+.color-lightGreen
+{
+    background-color: $light-green;
+
+    @extend .color;
+}
+
+.color-textGreen
+{
+    background-color: $text-green;
+
+    @extend .color;
+}
+
+.color-darkGreen
+{
+    background-color: $dark-green;
+
+    @extend .color;
+}
+
+.color-white
+{
+    background-color: $white;
+
+    @extend .color;
+}
+
+.color-black
+{
+    background-color: $black;
+
+    @extend .color;
+}
+
+.color-highlightGreen
+{
+    background-color: $highlight-green;
+
+    @extend .color;
+}
+
+.color-grey
+{
+    background-color: $grey;
+
+    @extend .color;
+}
+
+.color-yellow
+{
+    background-color: $yellow;
+
+    @extend .color;
+}
+
+.color-red
+{
+    background-color: $red;
+
+    @extend .color;
+}
+
+.color-blue
+{
+    background-color: $blue;
+
+    @extend .color;
+}

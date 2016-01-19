@@ -5,8 +5,8 @@
 		<meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
 		<meta http-equiv="pragma" content="no-cache" />
 		
-		<link rel="stylesheet" href="../../styleguide/css/styleguide.css?1450867114" media="all">
-		<link rel="stylesheet" href="../../styleguide/css/styleguide-specific.css?1450867114" media="all" />
+		<link rel="stylesheet" href="../../styleguide/css/styleguide.css?1453221578" media="all">
+		<link rel="stylesheet" href="../../styleguide/css/styleguide-specific.css?1453221578" media="all" />
 		
 
 
@@ -23,11 +23,12 @@
 		<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=no; user-scalable=0;"/>
 		<!-- CSS
 			–––––––––––––––––––––––––––––––––––––––––––––––––– -->
-		<link rel="stylesheet" href="../../stylesheet.css">
+		<link rel="stylesheet" href="../../css/style.css">
 	</head>
 	<body class="body">
 		<section>
-			<div class="container">		
+			<div class="container">
+		
 		<!-- View All Patterns in a Pattern Sub-Type -->
 		<div class="sg-main" role="main">
 			
@@ -282,16 +283,22 @@
 					<div id="atoms-blockquote" class="sg-pattern">
 						<h2 class="sg-pattern-head" ><a href="../../patterns/00-atoms-02-text-02-blockquote/00-atoms-02-text-02-blockquote.html" class="patternLink" data-patternpartial="atoms-blockquote">Blockquote</a></h2>
 						<div class="sg-pattern-body">
-							<blockquote>
-	<p>Това е блок цитат. Разбиваме яйцата с млякото, мазнината и меда / захарта. Добавяме брашното, содата, солта и канелата.</p>
-</blockquote>
+							<div class="paragraph-container">
+	<blockquote>
+		<p>Това е блок цитат. Разбиваме яйцата с млякото, мазнината и меда / захарта. Добавяме брашното, содата, солта и канелата.</p>
+	</blockquote>
+</div>
+
 							<div class="sg-code" style="display: none">
 								<h3 class="sg-code-head">HTML</h3>
 								<pre class="sg-code-html">
 									<code>
-										&lt;blockquote&gt;
-	&lt;p&gt;Това е блок цитат. Разбиваме яйцата с млякото, мазнината и меда / захарта. Добавяме брашното, содата, солта и канелата.&lt;/p&gt;
-&lt;/blockquote&gt;
+										&lt;div class=&quot;paragraph-container&quot;&gt;
+	&lt;blockquote&gt;
+		&lt;p&gt;Това е блок цитат. Разбиваме яйцата с млякото, мазнината и меда / захарта. Добавяме брашното, содата, солта и канелата.&lt;/p&gt;
+	&lt;/blockquote&gt;
+&lt;/div&gt;
+
 									</code>
 								</pre>
 							</div>
@@ -463,57 +470,15 @@
 							</div>
 						</div>
 					</div>
-					<div id="atoms-landscape-4x3" class="sg-pattern">
-						<h2 class="sg-pattern-head" ><a href="../../patterns/00-atoms-04-images-01-landscape-4x3/00-atoms-04-images-01-landscape-4x3.html" class="patternLink" data-patternpartial="atoms-landscape-4x3">Landscape 4x3</a></h2>
-						<div class="sg-pattern-body">
-							<img src="../../images/fpo_4x3.png" alt="4x3 Image" />
-							<div class="sg-code" style="display: none">
-								<h3 class="sg-code-head">HTML</h3>
-								<pre class="sg-code-html">
-									<code>
-										&lt;img src=&quot;../../images/fpo_4x3.png&quot; alt=&quot;4x3 Image&quot; /&gt;
-									</code>
-								</pre>
-							</div>
-						</div>
-					</div>
-					<div id="atoms-landscape-16x9" class="sg-pattern">
-						<h2 class="sg-pattern-head" ><a href="../../patterns/00-atoms-04-images-02-landscape-16x9/00-atoms-04-images-02-landscape-16x9.html" class="patternLink" data-patternpartial="atoms-landscape-16x9">Landscape 16x9</a></h2>
-						<div class="sg-pattern-body">
-							<img src="../../images/fpo_16x9.png" alt="16x9 Image" />
-							<div class="sg-code" style="display: none">
-								<h3 class="sg-code-head">HTML</h3>
-								<pre class="sg-code-html">
-									<code>
-										&lt;img src=&quot;../../images/fpo_16x9.png&quot; alt=&quot;16x9 Image&quot; /&gt;
-									</code>
-								</pre>
-							</div>
-						</div>
-					</div>
-					<div id="atoms-square" class="sg-pattern">
-						<h2 class="sg-pattern-head" ><a href="../../patterns/00-atoms-04-images-03-square/00-atoms-04-images-03-square.html" class="patternLink" data-patternpartial="atoms-square">Square</a></h2>
-						<div class="sg-pattern-body">
-							<img src="../../images/fpo_square.png" alt="Square Thumbnail" />
-							<div class="sg-code" style="display: none">
-								<h3 class="sg-code-head">HTML</h3>
-								<pre class="sg-code-html">
-									<code>
-										&lt;img src=&quot;../../images/fpo_square.png&quot; alt=&quot;Square Thumbnail&quot; /&gt;
-									</code>
-								</pre>
-							</div>
-						</div>
-					</div>
 					<div id="atoms-avatar" class="sg-pattern">
 						<h2 class="sg-pattern-head" ><a href="../../patterns/00-atoms-04-images-04-avatar/00-atoms-04-images-04-avatar.html" class="patternLink" data-patternpartial="atoms-avatar">Avatar</a></h2>
 						<div class="sg-pattern-body">
-							<img src="../../images/fpo_avatar.png" alt="Avatar" />
+							<img src="" alt="Avatar" />
 							<div class="sg-code" style="display: none">
 								<h3 class="sg-code-head">HTML</h3>
 								<pre class="sg-code-html">
 									<code>
-										&lt;img src=&quot;../../images/fpo_avatar.png&quot; alt=&quot;Avatar&quot; /&gt;
+										&lt;img src=&quot;&quot; alt=&quot;Avatar&quot; /&gt;
 									</code>
 								</pre>
 							</div>
@@ -539,97 +504,87 @@
 </svg>
 
 <span>
-	<object width="42px" type="image/svg+xml" data="../../glass.svg">
+	<object width="42px" type="image/svg+xml" data="../../images/glass.svg">
 	</object>
 </span>
 
 <span>
-	<object width="42px" type="image/svg+xml" data="../../bottle.svg">
+	<object width="42px" type="image/svg+xml" data="../../images/bottle.svg">
 	</object>
 </span>
 
 <span>
-	<object width="42px" type="image/svg+xml" data="../../small-food.svg">
+	<object width="42px" type="image/svg+xml" data="../../images/small-food.svg">
 	</object>
 </span>
 
 <span>
-	<object width="54px" type="image/svg+xml" data="../../big-food.svg">
+	<object width="54px" type="image/svg+xml" data="big-water.svg">
 	</object>
 </span>
 
 <span>
-	<object width="42px" type="image/svg+xml" data="../../small-water.svg">
+	<object width="42px" type="image/svg+xml" data="../../images/small-workout.svg">
 	</object>
 </span>
 
 <span>
-	<object width="54px" type="image/svg+xml" data="../../big-water.svg">
+	<object width="54px" type="image/svg+xml" data="../../images/big-workout.svg">
 	</object>
 </span>
 
 <span>
-	<object width="42px" type="image/svg+xml" data="../../small-workout.svg">
+	<object width="42px" type="image/svg+xml" data="../../images/small-shopping.svg">
 	</object>
 </span>
 
 <span>
-	<object width="54px" type="image/svg+xml" data="../../big-workout.svg">
+	<object width="54px" type="image/svg+xml" data="../../images/big-shopping.svg">
 	</object>
 </span>
 
 <span>
-	<object width="42px" type="image/svg+xml" data="../../small-shopping.svg">
+	<object width="42px" type="image/svg+xml" data="../../images/small-fridge.svg">
 	</object>
 </span>
 
 <span>
-	<object width="54px" type="image/svg+xml" data="../../big-shopping.svg">
+	<object width="54px" type="image/svg+xml" data="../../images/big-fridge.svg">
 	</object>
 </span>
 
 <span>
-	<object width="42px" type="image/svg+xml" data="../../small-fridge.svg">
+	<object width="42px" type="image/svg+xml" data="../../images/small-reading.svg">
 	</object>
 </span>
 
 <span>
-	<object width="54px" type="image/svg+xml" data="../../big-fridge.svg">
+	<object width="54px" type="image/svg+xml" data="../../images/big-reading.svg">
 	</object>
 </span>
 
 <span>
-	<object width="42px" type="image/svg+xml" data="../../small-reading.svg">
+	<object width="42px" type="image/svg+xml" data="../../images/small-notes.svg">
 	</object>
 </span>
 
 <span>
-	<object width="54px" type="image/svg+xml" data="../../big-reading.svg">
+	<object width="54px" type="image/svg+xml" data="../../images/big-notes.svg">
 	</object>
 </span>
 
 <span>
-	<object width="42px" type="image/svg+xml" data="../../small-notes.svg">
+	<object width="42px" type="image/svg+xml" data="../../images/small-measurements.svg">
 	</object>
 </span>
 
 <span>
-	<object width="54px" type="image/svg+xml" data="../../big-notes.svg">
+	<object width="54px" type="image/svg+xml" data="../../images/big-measurements.svg">
 	</object>
 </span>
 
 <span>
-	<object width="42px" type="image/svg+xml" data="../../small-measurements.svg">
-	</object>
-</span>
-
-<span>
-	<object width="54px" type="image/svg+xml" data="../../big-measurements.svg">
-	</object>
-</span>
-
-<span>
-	<object width="54px" type="image/svg+xml" data="../../big-shopping.svg">
+	<object width="54px" type="image/svg+xml" data="../../images/big-shopping.svg">
 	</object>
 </span>
 
@@ -646,24 +601,25 @@
 </button>
 
 <span>
-	<object width="36px" type="image/svg+xml" data="../../great.svg">
+	<object width="36px" type="image/svg+xml" data="../../images/great.svg">
 	</object>
 </span>
 
 <span>
-	<object width="36px" type="image/svg+xml" data="../../meh.svg">
+	<object width="36px" type="image/svg+xml" data="../../images/meh.svg">
 	</object>
 </span>
 
 <span>
-	<object width="36px" type="image/svg+xml" data="../../nogood.svg">
+	<object width="36px" type="image/svg+xml" data="../../images/nogood.svg">
 	</object>
 </span>
 
 <span>
-	<object width="36px" type="image/svg+xml" data="../../add-photo.svg">
+	<object width="36px" type="image/svg+xml" data="../../images/add-photo.svg">
 	</object>
 </span>
+
 							<div class="sg-code" style="display: none">
 								<h3 class="sg-code-head">HTML</h3>
 								<pre class="sg-code-html">
@@ -685,97 +641,87 @@
 &lt;/svg&gt;
 
 &lt;span&gt;
-	&lt;object width=&quot;42px&quot; type=&quot;image/svg+xml&quot; data=&quot;../../glass.svg&quot;&gt;
+	&lt;object width=&quot;42px&quot; type=&quot;image/svg+xml&quot; data=&quot;../../images/glass.svg&quot;&gt;
 	&lt;/object&gt;
 &lt;/span&gt;
 
 &lt;span&gt;
-	&lt;object width=&quot;42px&quot; type=&quot;image/svg+xml&quot; data=&quot;../../bottle.svg&quot;&gt;
+	&lt;object width=&quot;42px&quot; type=&quot;image/svg+xml&quot; data=&quot;../../images/bottle.svg&quot;&gt;
 	&lt;/object&gt;
 &lt;/span&gt;
 
 &lt;span&gt;
-	&lt;object width=&quot;42px&quot; type=&quot;image/svg+xml&quot; data=&quot;../../small-food.svg&quot;&gt;
+	&lt;object width=&quot;42px&quot; type=&quot;image/svg+xml&quot; data=&quot;../../images/small-food.svg&quot;&gt;
 	&lt;/object&gt;
 &lt;/span&gt;
 
 &lt;span&gt;
-	&lt;object width=&quot;54px&quot; type=&quot;image/svg+xml&quot; data=&quot;../../big-food.svg&quot;&gt;
+	&lt;object width=&quot;54px&quot; type=&quot;image/svg+xml&quot; data=&quot;big-water.svg&quot;&gt;
 	&lt;/object&gt;
 &lt;/span&gt;
 
 &lt;span&gt;
-	&lt;object width=&quot;42px&quot; type=&quot;image/svg+xml&quot; data=&quot;../../small-water.svg&quot;&gt;
+	&lt;object width=&quot;42px&quot; type=&quot;image/svg+xml&quot; data=&quot;../../images/small-workout.svg&quot;&gt;
 	&lt;/object&gt;
 &lt;/span&gt;
 
 &lt;span&gt;
-	&lt;object width=&quot;54px&quot; type=&quot;image/svg+xml&quot; data=&quot;../../big-water.svg&quot;&gt;
+	&lt;object width=&quot;54px&quot; type=&quot;image/svg+xml&quot; data=&quot;../../images/big-workout.svg&quot;&gt;
 	&lt;/object&gt;
 &lt;/span&gt;
 
 &lt;span&gt;
-	&lt;object width=&quot;42px&quot; type=&quot;image/svg+xml&quot; data=&quot;../../small-workout.svg&quot;&gt;
+	&lt;object width=&quot;42px&quot; type=&quot;image/svg+xml&quot; data=&quot;../../images/small-shopping.svg&quot;&gt;
 	&lt;/object&gt;
 &lt;/span&gt;
 
 &lt;span&gt;
-	&lt;object width=&quot;54px&quot; type=&quot;image/svg+xml&quot; data=&quot;../../big-workout.svg&quot;&gt;
+	&lt;object width=&quot;54px&quot; type=&quot;image/svg+xml&quot; data=&quot;../../images/big-shopping.svg&quot;&gt;
 	&lt;/object&gt;
 &lt;/span&gt;
 
 &lt;span&gt;
-	&lt;object width=&quot;42px&quot; type=&quot;image/svg+xml&quot; data=&quot;../../small-shopping.svg&quot;&gt;
+	&lt;object width=&quot;42px&quot; type=&quot;image/svg+xml&quot; data=&quot;../../images/small-fridge.svg&quot;&gt;
 	&lt;/object&gt;
 &lt;/span&gt;
 
 &lt;span&gt;
-	&lt;object width=&quot;54px&quot; type=&quot;image/svg+xml&quot; data=&quot;../../big-shopping.svg&quot;&gt;
+	&lt;object width=&quot;54px&quot; type=&quot;image/svg+xml&quot; data=&quot;../../images/big-fridge.svg&quot;&gt;
 	&lt;/object&gt;
 &lt;/span&gt;
 
 &lt;span&gt;
-	&lt;object width=&quot;42px&quot; type=&quot;image/svg+xml&quot; data=&quot;../../small-fridge.svg&quot;&gt;
+	&lt;object width=&quot;42px&quot; type=&quot;image/svg+xml&quot; data=&quot;../../images/small-reading.svg&quot;&gt;
 	&lt;/object&gt;
 &lt;/span&gt;
 
 &lt;span&gt;
-	&lt;object width=&quot;54px&quot; type=&quot;image/svg+xml&quot; data=&quot;../../big-fridge.svg&quot;&gt;
+	&lt;object width=&quot;54px&quot; type=&quot;image/svg+xml&quot; data=&quot;../../images/big-reading.svg&quot;&gt;
 	&lt;/object&gt;
 &lt;/span&gt;
 
 &lt;span&gt;
-	&lt;object width=&quot;42px&quot; type=&quot;image/svg+xml&quot; data=&quot;../../small-reading.svg&quot;&gt;
+	&lt;object width=&quot;42px&quot; type=&quot;image/svg+xml&quot; data=&quot;../../images/small-notes.svg&quot;&gt;
 	&lt;/object&gt;
 &lt;/span&gt;
 
 &lt;span&gt;
-	&lt;object width=&quot;54px&quot; type=&quot;image/svg+xml&quot; data=&quot;../../big-reading.svg&quot;&gt;
+	&lt;object width=&quot;54px&quot; type=&quot;image/svg+xml&quot; data=&quot;../../images/big-notes.svg&quot;&gt;
 	&lt;/object&gt;
 &lt;/span&gt;
 
 &lt;span&gt;
-	&lt;object width=&quot;42px&quot; type=&quot;image/svg+xml&quot; data=&quot;../../small-notes.svg&quot;&gt;
+	&lt;object width=&quot;42px&quot; type=&quot;image/svg+xml&quot; data=&quot;../../images/small-measurements.svg&quot;&gt;
 	&lt;/object&gt;
 &lt;/span&gt;
 
 &lt;span&gt;
-	&lt;object width=&quot;54px&quot; type=&quot;image/svg+xml&quot; data=&quot;../../big-notes.svg&quot;&gt;
+	&lt;object width=&quot;54px&quot; type=&quot;image/svg+xml&quot; data=&quot;../../images/big-measurements.svg&quot;&gt;
 	&lt;/object&gt;
 &lt;/span&gt;
 
 &lt;span&gt;
-	&lt;object width=&quot;42px&quot; type=&quot;image/svg+xml&quot; data=&quot;../../small-measurements.svg&quot;&gt;
-	&lt;/object&gt;
-&lt;/span&gt;
-
-&lt;span&gt;
-	&lt;object width=&quot;54px&quot; type=&quot;image/svg+xml&quot; data=&quot;../../big-measurements.svg&quot;&gt;
-	&lt;/object&gt;
-&lt;/span&gt;
-
-&lt;span&gt;
-	&lt;object width=&quot;54px&quot; type=&quot;image/svg+xml&quot; data=&quot;../../big-shopping.svg&quot;&gt;
+	&lt;object width=&quot;54px&quot; type=&quot;image/svg+xml&quot; data=&quot;../../images/big-shopping.svg&quot;&gt;
 	&lt;/object&gt;
 &lt;/span&gt;
 
@@ -792,24 +738,25 @@
 &lt;/button&gt;
 
 &lt;span&gt;
-	&lt;object width=&quot;36px&quot; type=&quot;image/svg+xml&quot; data=&quot;../../great.svg&quot;&gt;
+	&lt;object width=&quot;36px&quot; type=&quot;image/svg+xml&quot; data=&quot;../../images/great.svg&quot;&gt;
 	&lt;/object&gt;
 &lt;/span&gt;
 
 &lt;span&gt;
-	&lt;object width=&quot;36px&quot; type=&quot;image/svg+xml&quot; data=&quot;../../meh.svg&quot;&gt;
+	&lt;object width=&quot;36px&quot; type=&quot;image/svg+xml&quot; data=&quot;../../images/meh.svg&quot;&gt;
 	&lt;/object&gt;
 &lt;/span&gt;
 
 &lt;span&gt;
-	&lt;object width=&quot;36px&quot; type=&quot;image/svg+xml&quot; data=&quot;../../nogood.svg&quot;&gt;
+	&lt;object width=&quot;36px&quot; type=&quot;image/svg+xml&quot; data=&quot;../../images/nogood.svg&quot;&gt;
 	&lt;/object&gt;
 &lt;/span&gt;
 
 &lt;span&gt;
-	&lt;object width=&quot;36px&quot; type=&quot;image/svg+xml&quot; data=&quot;../../add-photo.svg&quot;&gt;
+	&lt;object width=&quot;36px&quot; type=&quot;image/svg+xml&quot; data=&quot;../../images/add-photo.svg&quot;&gt;
 	&lt;/object&gt;
 &lt;/span&gt;
+
 									</code>
 								</pre>
 							</div>
@@ -1101,7 +1048,7 @@
 							<div class="block block-thumb">
     <a href="#" class="b-inner">
 		<div class="b-thumb">
-			<img src="../../images/fpo_square.png" alt="Square Thumbnail" />		</div>
+		</div>
 		<div class="b-text">
 			<h2 class="b-title">Lorem ipsum dolor sit (37 characters)</h2>
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
@@ -1109,17 +1056,13 @@
 	</a>
 </div>
 							<div class="sg-code" style="display: none">
-									<div class="sg-code-contains">
-										This pattern contains: 
-											<a href="../../patterns/00-atoms-04-images-03-square/00-atoms-04-images-03-square.html"><code>atoms-square</code></a>
-									</div>
 								<h3 class="sg-code-head">HTML</h3>
 								<pre class="sg-code-html">
 									<code>
 										&lt;div class=&quot;block block-thumb&quot;&gt;
     &lt;a href=&quot;#&quot; class=&quot;b-inner&quot;&gt;
 		&lt;div class=&quot;b-thumb&quot;&gt;
-			&lt;img src=&quot;../../images/fpo_square.png&quot; alt=&quot;Square Thumbnail&quot; /&gt;		&lt;/div&gt;
+		&lt;/div&gt;
 		&lt;div class=&quot;b-text&quot;&gt;
 			&lt;h2 class=&quot;b-title&quot;&gt;Lorem ipsum dolor sit (37 characters)&lt;/h2&gt;
 			&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.&lt;/p&gt;
@@ -1163,24 +1106,20 @@
 							<div class="block block-hero">
 	<a href="#" class="b-inner">
 		<div class="b-thumb">
-			<img src="../../images/fpo_16x9.png" alt="16x9 Image" />		</div>
+		</div>
 		<div class="b-text">
 			<h2 class="b-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. (72 characters)</h2>
 		</div>
 	</a>
 </div>
 							<div class="sg-code" style="display: none">
-									<div class="sg-code-contains">
-										This pattern contains: 
-											<a href="../../patterns/00-atoms-04-images-02-landscape-16x9/00-atoms-04-images-02-landscape-16x9.html"><code>atoms-landscape-16x9</code></a>
-									</div>
 								<h3 class="sg-code-head">HTML</h3>
 								<pre class="sg-code-html">
 									<code>
 										&lt;div class=&quot;block block-hero&quot;&gt;
 	&lt;a href=&quot;#&quot; class=&quot;b-inner&quot;&gt;
 		&lt;div class=&quot;b-thumb&quot;&gt;
-			&lt;img src=&quot;../../images/fpo_16x9.png&quot; alt=&quot;16x9 Image&quot; /&gt;		&lt;/div&gt;
+		&lt;/div&gt;
 		&lt;div class=&quot;b-text&quot;&gt;
 			&lt;h2 class=&quot;b-title&quot;&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. (72 characters)&lt;/h2&gt;
 		&lt;/div&gt;
@@ -1197,24 +1136,20 @@
 							<div class="block block-thumb">
 	<a href="#" class="b-inner">
 		<div class="b-thumb">
-			<img src="../../images/fpo_square.png" alt="Square Thumbnail" />		</div>
+		</div>
 		<div class="b-text">
 			<h2 class="b-title">Pattern Lab</h2>
 		</div>
 	</a>
 </div>
 							<div class="sg-code" style="display: none">
-									<div class="sg-code-contains">
-										This pattern contains: 
-											<a href="../../patterns/00-atoms-04-images-03-square/00-atoms-04-images-03-square.html"><code>atoms-square</code></a>
-									</div>
 								<h3 class="sg-code-head">HTML</h3>
 								<pre class="sg-code-html">
 									<code>
 										&lt;div class=&quot;block block-thumb&quot;&gt;
 	&lt;a href=&quot;#&quot; class=&quot;b-inner&quot;&gt;
 		&lt;div class=&quot;b-thumb&quot;&gt;
-			&lt;img src=&quot;../../images/fpo_square.png&quot; alt=&quot;Square Thumbnail&quot; /&gt;		&lt;/div&gt;
+		&lt;/div&gt;
 		&lt;div class=&quot;b-text&quot;&gt;
 			&lt;h2 class=&quot;b-title&quot;&gt;Pattern Lab&lt;/h2&gt;
 		&lt;/div&gt;
@@ -1253,24 +1188,20 @@
 							<div class="block block-inset">
     <a href="#" class="inner">
 		<div class="b-thumb">
-			<img src="../../images/fpo_4x3.png" alt="4x3 Image" />		</div>
+		</div>
 		<div class="b-text">
 			<h2 class="headline">Lorem ipsum dolor sit (37 characters)</h2>
 		</div>
 	</a>
 </div>
 							<div class="sg-code" style="display: none">
-									<div class="sg-code-contains">
-										This pattern contains: 
-											<a href="../../patterns/00-atoms-04-images-01-landscape-4x3/00-atoms-04-images-01-landscape-4x3.html"><code>atoms-landscape-4x3</code></a>
-									</div>
 								<h3 class="sg-code-head">HTML</h3>
 								<pre class="sg-code-html">
 									<code>
 										&lt;div class=&quot;block block-inset&quot;&gt;
     &lt;a href=&quot;#&quot; class=&quot;inner&quot;&gt;
 		&lt;div class=&quot;b-thumb&quot;&gt;
-			&lt;img src=&quot;../../images/fpo_4x3.png&quot; alt=&quot;4x3 Image&quot; /&gt;		&lt;/div&gt;
+		&lt;/div&gt;
 		&lt;div class=&quot;b-text&quot;&gt;
 			&lt;h2 class=&quot;headline&quot;&gt;Lorem ipsum dolor sit (37 characters)&lt;/h2&gt;
 		&lt;/div&gt;
@@ -1285,18 +1216,14 @@
 						<h2 class="sg-pattern-head" ><a href="../../patterns/01-molecules-03-media-00-figure-with-caption/01-molecules-03-media-00-figure-with-caption.html" class="patternLink" data-patternpartial="molecules-figure-with-caption">Figure With Caption</a></h2>
 						<div class="sg-pattern-body">
 							<figure>
-	<img src="../../images/fpo_4x3.png" alt="4x3 Image" />	<figcaption>This is an example of an image with a caption. Photo captions, also known as cutlines, are a few lines of text used to explain or elaborate on published photographs.</figcaption>
+	<figcaption>This is an example of an image with a caption. Photo captions, also known as cutlines, are a few lines of text used to explain or elaborate on published photographs.</figcaption>
 </figure>
 							<div class="sg-code" style="display: none">
-									<div class="sg-code-contains">
-										This pattern contains: 
-											<a href="../../patterns/00-atoms-04-images-01-landscape-4x3/00-atoms-04-images-01-landscape-4x3.html"><code>atoms-landscape-4x3</code></a>
-									</div>
 								<h3 class="sg-code-head">HTML</h3>
 								<pre class="sg-code-html">
 									<code>
 										&lt;figure&gt;
-	&lt;img src=&quot;../../images/fpo_4x3.png&quot; alt=&quot;4x3 Image&quot; /&gt;	&lt;figcaption&gt;This is an example of an image with a caption. Photo captions, also known as cutlines, are a few lines of text used to explain or elaborate on published photographs.&lt;/figcaption&gt;
+	&lt;figcaption&gt;This is an example of an image with a caption. Photo captions, also known as cutlines, are a few lines of text used to explain or elaborate on published photographs.&lt;/figcaption&gt;
 &lt;/figure&gt;
 									</code>
 								</pre>
@@ -1798,7 +1725,7 @@
 						<div class="sg-pattern-body">
 							<li class="comment-container">
 	<div class="comment-meta">
-		<img src="../../images/fpo_avatar.png" alt="Avatar" />		<h4 class="comment-name"><a href="#">Lacy Way</a></h4>
+		<img src="" alt="Avatar" />		<h4 class="comment-name"><a href="#">Lacy Way</a></h4>
 	</div>
 	<div class="comment-text">
 		<p>So, setting about it as methodically as men might smoke out a wasps' nest, the Martians spread this strange stifling vapour over the Londonward country. The horns of the crescent slowly moved apart, until at last they formed a line from Hanwell to Coombe and Malden. All night through their destructive tubes advanced.</p>
@@ -1814,7 +1741,7 @@
 									<code>
 										&lt;li class=&quot;comment-container&quot;&gt;
 	&lt;div class=&quot;comment-meta&quot;&gt;
-		&lt;img src=&quot;../../images/fpo_avatar.png&quot; alt=&quot;Avatar&quot; /&gt;		&lt;h4 class=&quot;comment-name&quot;&gt;&lt;a href=&quot;#&quot;&gt;Lacy Way&lt;/a&gt;&lt;/h4&gt;
+		&lt;img src=&quot;&quot; alt=&quot;Avatar&quot; /&gt;		&lt;h4 class=&quot;comment-name&quot;&gt;&lt;a href=&quot;#&quot;&gt;Lacy Way&lt;/a&gt;&lt;/h4&gt;
 	&lt;/div&gt;
 	&lt;div class=&quot;comment-text&quot;&gt;
 		&lt;p&gt;So, setting about it as methodically as men might smoke out a wasps' nest, the Martians spread this strange stifling vapour over the Londonward country. The horns of the crescent slowly moved apart, until at last they formed a line from Hanwell to Coombe and Malden. All night through their destructive tubes advanced.&lt;/p&gt;
@@ -2064,13 +1991,16 @@
 
 <p><a href="#">Aliquam erat volutpat.</a> Mauris vulputate scelerisque feugiat. Cras a erat a diam venenatis aliquam. Sed tempus, purus ac pretium varius, risus orci sagittis purus, quis auctor libero magna nec magna. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas eros dolor, rutrum eu sollicitudin eu, commodo at leo. Suspendisse potenti. Sed eu nibh sit amet quam auctor feugiat vel et risus. Maecenas eu urna adipiscing neque dictum mollis suscipit in augue. Praesent pulvinar condimentum sagittis. Maecenas laoreet neque non eros consectetur fringilla. Donec vitae risus leo, vitae pharetra ipsum. Sed placerat eros eget elit iaculis semper. Aliquam congue blandit orci ac pretium.</p>
 
-<img src="../../images/fpo_16x9.png" alt="16x9 Image" />
+
 <p>Aliquam ultrices cursus mauris, eget volutpat justo mattis nec. Sed a orci turpis. Aliquam aliquet placerat dui, consectetur tincidunt leo tristique et. Vivamus enim nisi, blandit a venenatis quis, convallis et arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris libero sapien, placerat in sodales eu, tempor quis dui. Vivamus egestas faucibus pulvinar. Maecenas eget diam nunc. Phasellus at sem eros, ac suscipit neque. Phasellus sollicitudin libero a odio dignissim scelerisque. Aliquam purus nulla, tempor eget ullamcorper quis, rhoncus non dui.
 </p>
 
-<blockquote>
-	<p>Това е блок цитат. Разбиваме яйцата с млякото, мазнината и меда / захарта. Добавяме брашното, содата, солта и канелата.</p>
-</blockquote>
+<div class="paragraph-container">
+	<blockquote>
+		<p>Това е блок цитат. Разбиваме яйцата с млякото, мазнината и меда / захарта. Добавяме брашното, содата, солта и канелата.</p>
+	</blockquote>
+</div>
+
 <p>Cras at fringilla ipsum. Donec nec libero eget est blandit dignissim a eu ante. Morbi augue nulla, luctus eu sagittis vel, malesuada ut felis. Aliquam erat volutpat. Morbi malesuada augue ac massa hendrerit fermentum. Integer scelerisque lacus a dolor convallis lobortis. Curabitur mollis ante in massa ultricies dignissim.
 </p>
 
@@ -2109,7 +2039,6 @@
 							<div class="sg-code" style="display: none">
 									<div class="sg-code-contains">
 										This pattern contains: 
-											<a href="../../patterns/00-atoms-04-images-02-landscape-16x9/00-atoms-04-images-02-landscape-16x9.html"><code>atoms-landscape-16x9</code></a>
 											<a href="../../patterns/00-atoms-02-text-02-blockquote/00-atoms-02-text-02-blockquote.html"><code>atoms-blockquote</code></a>
 											<a href="../../patterns/00-atoms-03-lists-00-unordered/00-atoms-03-lists-00-unordered.html"><code>atoms-unordered</code></a>
 											<a href="../../patterns/00-atoms-03-lists-01-ordered/00-atoms-03-lists-01-ordered.html"><code>atoms-ordered</code></a>
@@ -2121,13 +2050,16 @@
 
 &lt;p&gt;&lt;a href=&quot;#&quot;&gt;Aliquam erat volutpat.&lt;/a&gt; Mauris vulputate scelerisque feugiat. Cras a erat a diam venenatis aliquam. Sed tempus, purus ac pretium varius, risus orci sagittis purus, quis auctor libero magna nec magna. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas eros dolor, rutrum eu sollicitudin eu, commodo at leo. Suspendisse potenti. Sed eu nibh sit amet quam auctor feugiat vel et risus. Maecenas eu urna adipiscing neque dictum mollis suscipit in augue. Praesent pulvinar condimentum sagittis. Maecenas laoreet neque non eros consectetur fringilla. Donec vitae risus leo, vitae pharetra ipsum. Sed placerat eros eget elit iaculis semper. Aliquam congue blandit orci ac pretium.&lt;/p&gt;
 
-&lt;img src=&quot;../../images/fpo_16x9.png&quot; alt=&quot;16x9 Image&quot; /&gt;
+
 &lt;p&gt;Aliquam ultrices cursus mauris, eget volutpat justo mattis nec. Sed a orci turpis. Aliquam aliquet placerat dui, consectetur tincidunt leo tristique et. Vivamus enim nisi, blandit a venenatis quis, convallis et arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris libero sapien, placerat in sodales eu, tempor quis dui. Vivamus egestas faucibus pulvinar. Maecenas eget diam nunc. Phasellus at sem eros, ac suscipit neque. Phasellus sollicitudin libero a odio dignissim scelerisque. Aliquam purus nulla, tempor eget ullamcorper quis, rhoncus non dui.
 &lt;/p&gt;
 
-&lt;blockquote&gt;
-	&lt;p&gt;Това е блок цитат. Разбиваме яйцата с млякото, мазнината и меда / захарта. Добавяме брашното, содата, солта и канелата.&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;div class=&quot;paragraph-container&quot;&gt;
+	&lt;blockquote&gt;
+		&lt;p&gt;Това е блок цитат. Разбиваме яйцата с млякото, мазнината и меда / захарта. Добавяме брашното, содата, солта и канелата.&lt;/p&gt;
+	&lt;/blockquote&gt;
+&lt;/div&gt;
+
 &lt;p&gt;Cras at fringilla ipsum. Donec nec libero eget est blandit dignissim a eu ante. Morbi augue nulla, luctus eu sagittis vel, malesuada ut felis. Aliquam erat volutpat. Morbi malesuada augue ac massa hendrerit fermentum. Integer scelerisque lacus a dolor convallis lobortis. Curabitur mollis ante in massa ultricies dignissim.
 &lt;/p&gt;
 
@@ -2196,24 +2128,10 @@
 		</form>		<ul class="comment-list">
 				<li class="comment-container">
 					<div class="comment-meta">
-		<img src="http://placeimg.com/100/100/people/sepia" alt="Avatar" />						<h4 class="comment-name"><a href="#">Aquila Achterkamp</a></h4>
+		<img src="http://placeimg.com/100/100/tech" alt="Avatar" />						<h4 class="comment-name"><a href="#">Teun Richard</a></h4>
 					</div>
 					<div class="comment-text">
-						<p>Queso caerphilly cheesecake. Parmesan chalk and cheese port-salut port-salut babybel cottage cheese cheesy grin pepper jack. Croque monsieur paneer st. agur blue cheese emmental airedale monterey jack bavarian bergkase cheese triangles. Halloumi parmesan.</p>
-					</div>
-				</li>				<li class="comment-container">
-					<div class="comment-meta">
-		<img src="http://placeimg.com/100/100/any/grayscale" alt="Avatar" />						<h4 class="comment-name"><a href="#">Freyr Hines</a></h4>
-					</div>
-					<div class="comment-text">
-						<p>Wufoo diigo grockit sifteo divvyshot, unigo zooomr revver. Edmodo appjet joyent skype bubbli jajah zoodles joukuu xobni hojoki edmodo appjet, mozy mzinga akismet yuntaa joost yuntaa geni tivo insala yoono chumby, grockit sococo loopt zanga etsy cloudera koofers empressr jiglu blippy. Omgpop lanyrd joukuu sococo zimbra airbnb movity jibjab, foodzie.</p>
-					</div>
-				</li>				<li class="comment-container">
-					<div class="comment-meta">
-		<img src="http://placeimg.com/100/100/people" alt="Avatar" />						<h4 class="comment-name"><a href="#">Junius Koolen</a></h4>
-					</div>
-					<div class="comment-text">
-						<p>Fizzle crazy tortor. Sed rizzle. Ass pimpin' dolor dapibizzle turpis tempizzle fo shizzle my nizzle. Maurizzle pellentesque its fo rizzle izzle turpis. Get down get down we gonna chung nizzle. Shizzlin dizzle eleifend rhoncizzle break it down. In yo ghetto platea dictumst. Bling bling dapibizzle. Curabitur break yo neck, yall fo, pretizzle eu, go to hizzle dope, own yo' vitae, nunc. Bizzle suscipizzle. Ass semper velit sizzle fo.</p>
+						<p>Boudin sausage jerky pastrami ground round salami biltong. Sausage fatback strip steak doner pork loin, pork belly drumstick ham short loin hamburger shankle. Short ribs sirloin rump tri-tip beef biltong. Meatball pig salami, jowl pork loin fatback short loin drumstick andouille.</p>
 					</div>
 				</li>				<li class="comment-container">
 					<div class="comment-meta">
@@ -2224,10 +2142,24 @@
 					</div>
 				</li>				<li class="comment-container">
 					<div class="comment-meta">
-		<img src="http://placeimg.com/100/100/tech/sepia" alt="Avatar" />						<h4 class="comment-name"><a href="#">Matthias Macguinness</a></h4>
+		<img src="http://placeimg.com/100/100/arch" alt="Avatar" />						<h4 class="comment-name"><a href="#">Fergus Althuis</a></h4>
 					</div>
 					<div class="comment-text">
-						<p>Sugar plum wafer soufflé ice cream. Wafer topping biscuit pie gummi bears topping. Gummies toffee powder applicake oat cake cookie. Bear claw candy tootsie roll fruitcake danish applicake candy canes macaroon. Liquorice tiramisu danish cotton candy gummies. Tiramisu dessert gummi bears macaroon sweet roll jelly-o gummi bears marzipan.</p>
+						<p>Beats all you've ever saw, been in trouble with the law since the day they was born. Straight'nin' the curve, flat'nin' the hills. Someday the mountain might get 'em, but the law never will. Makin' their way, the only way they know how, that's just a little bit more than the law will allow. Just good ol' boys, wouldn't change if they could, fightin' the system like a true modern day Robin Hood.</p>
+					</div>
+				</li>				<li class="comment-container">
+					<div class="comment-meta">
+		<img src="http://placeimg.com/100/100/any/grayscale" alt="Avatar" />						<h4 class="comment-name"><a href="#">Freyr Hines</a></h4>
+					</div>
+					<div class="comment-text">
+						<p>Wufoo diigo grockit sifteo divvyshot, unigo zooomr revver. Edmodo appjet joyent skype bubbli jajah zoodles joukuu xobni hojoki edmodo appjet, mozy mzinga akismet yuntaa joost yuntaa geni tivo insala yoono chumby, grockit sococo loopt zanga etsy cloudera koofers empressr jiglu blippy. Omgpop lanyrd joukuu sococo zimbra airbnb movity jibjab, foodzie.</p>
+					</div>
+				</li>				<li class="comment-container">
+					<div class="comment-meta">
+		<img src="http://placeimg.com/100/100/people/grayscale" alt="Avatar" />						<h4 class="comment-name"><a href="#">Frans Keegan</a></h4>
+					</div>
+					<div class="comment-text">
+						<p>Like button audience atomization overcome Colbert bump Free Darko inverted pyramid we will make them pay, digital circulation strategy Like button totally blowing up on Twitter church of the savvy. Pictures of Goats section open source discuss Frontline analog thinking filters paidContent.</p>
 					</div>
 				</li>		</ul>
 	</div>
@@ -2275,24 +2207,10 @@
 		&lt;/form&gt;		&lt;ul class=&quot;comment-list&quot;&gt;
 				&lt;li class=&quot;comment-container&quot;&gt;
 					&lt;div class=&quot;comment-meta&quot;&gt;
-		&lt;img src=&quot;http://placeimg.com/100/100/people/sepia&quot; alt=&quot;Avatar&quot; /&gt;						&lt;h4 class=&quot;comment-name&quot;&gt;&lt;a href=&quot;#&quot;&gt;Aquila Achterkamp&lt;/a&gt;&lt;/h4&gt;
+		&lt;img src=&quot;http://placeimg.com/100/100/tech&quot; alt=&quot;Avatar&quot; /&gt;						&lt;h4 class=&quot;comment-name&quot;&gt;&lt;a href=&quot;#&quot;&gt;Teun Richard&lt;/a&gt;&lt;/h4&gt;
 					&lt;/div&gt;
 					&lt;div class=&quot;comment-text&quot;&gt;
-						&lt;p&gt;Queso caerphilly cheesecake. Parmesan chalk and cheese port-salut port-salut babybel cottage cheese cheesy grin pepper jack. Croque monsieur paneer st. agur blue cheese emmental airedale monterey jack bavarian bergkase cheese triangles. Halloumi parmesan.&lt;/p&gt;
-					&lt;/div&gt;
-				&lt;/li&gt;				&lt;li class=&quot;comment-container&quot;&gt;
-					&lt;div class=&quot;comment-meta&quot;&gt;
-		&lt;img src=&quot;http://placeimg.com/100/100/any/grayscale&quot; alt=&quot;Avatar&quot; /&gt;						&lt;h4 class=&quot;comment-name&quot;&gt;&lt;a href=&quot;#&quot;&gt;Freyr Hines&lt;/a&gt;&lt;/h4&gt;
-					&lt;/div&gt;
-					&lt;div class=&quot;comment-text&quot;&gt;
-						&lt;p&gt;Wufoo diigo grockit sifteo divvyshot, unigo zooomr revver. Edmodo appjet joyent skype bubbli jajah zoodles joukuu xobni hojoki edmodo appjet, mozy mzinga akismet yuntaa joost yuntaa geni tivo insala yoono chumby, grockit sococo loopt zanga etsy cloudera koofers empressr jiglu blippy. Omgpop lanyrd joukuu sococo zimbra airbnb movity jibjab, foodzie.&lt;/p&gt;
-					&lt;/div&gt;
-				&lt;/li&gt;				&lt;li class=&quot;comment-container&quot;&gt;
-					&lt;div class=&quot;comment-meta&quot;&gt;
-		&lt;img src=&quot;http://placeimg.com/100/100/people&quot; alt=&quot;Avatar&quot; /&gt;						&lt;h4 class=&quot;comment-name&quot;&gt;&lt;a href=&quot;#&quot;&gt;Junius Koolen&lt;/a&gt;&lt;/h4&gt;
-					&lt;/div&gt;
-					&lt;div class=&quot;comment-text&quot;&gt;
-						&lt;p&gt;Fizzle crazy tortor. Sed rizzle. Ass pimpin' dolor dapibizzle turpis tempizzle fo shizzle my nizzle. Maurizzle pellentesque its fo rizzle izzle turpis. Get down get down we gonna chung nizzle. Shizzlin dizzle eleifend rhoncizzle break it down. In yo ghetto platea dictumst. Bling bling dapibizzle. Curabitur break yo neck, yall fo, pretizzle eu, go to hizzle dope, own yo' vitae, nunc. Bizzle suscipizzle. Ass semper velit sizzle fo.&lt;/p&gt;
+						&lt;p&gt;Boudin sausage jerky pastrami ground round salami biltong. Sausage fatback strip steak doner pork loin, pork belly drumstick ham short loin hamburger shankle. Short ribs sirloin rump tri-tip beef biltong. Meatball pig salami, jowl pork loin fatback short loin drumstick andouille.&lt;/p&gt;
 					&lt;/div&gt;
 				&lt;/li&gt;				&lt;li class=&quot;comment-container&quot;&gt;
 					&lt;div class=&quot;comment-meta&quot;&gt;
@@ -2303,10 +2221,24 @@
 					&lt;/div&gt;
 				&lt;/li&gt;				&lt;li class=&quot;comment-container&quot;&gt;
 					&lt;div class=&quot;comment-meta&quot;&gt;
-		&lt;img src=&quot;http://placeimg.com/100/100/tech/sepia&quot; alt=&quot;Avatar&quot; /&gt;						&lt;h4 class=&quot;comment-name&quot;&gt;&lt;a href=&quot;#&quot;&gt;Matthias Macguinness&lt;/a&gt;&lt;/h4&gt;
+		&lt;img src=&quot;http://placeimg.com/100/100/arch&quot; alt=&quot;Avatar&quot; /&gt;						&lt;h4 class=&quot;comment-name&quot;&gt;&lt;a href=&quot;#&quot;&gt;Fergus Althuis&lt;/a&gt;&lt;/h4&gt;
 					&lt;/div&gt;
 					&lt;div class=&quot;comment-text&quot;&gt;
-						&lt;p&gt;Sugar plum wafer souffl&eacute; ice cream. Wafer topping biscuit pie gummi bears topping. Gummies toffee powder applicake oat cake cookie. Bear claw candy tootsie roll fruitcake danish applicake candy canes macaroon. Liquorice tiramisu danish cotton candy gummies. Tiramisu dessert gummi bears macaroon sweet roll jelly-o gummi bears marzipan.&lt;/p&gt;
+						&lt;p&gt;Beats all you've ever saw, been in trouble with the law since the day they was born. Straight'nin' the curve, flat'nin' the hills. Someday the mountain might get 'em, but the law never will. Makin' their way, the only way they know how, that's just a little bit more than the law will allow. Just good ol' boys, wouldn't change if they could, fightin' the system like a true modern day Robin Hood.&lt;/p&gt;
+					&lt;/div&gt;
+				&lt;/li&gt;				&lt;li class=&quot;comment-container&quot;&gt;
+					&lt;div class=&quot;comment-meta&quot;&gt;
+		&lt;img src=&quot;http://placeimg.com/100/100/any/grayscale&quot; alt=&quot;Avatar&quot; /&gt;						&lt;h4 class=&quot;comment-name&quot;&gt;&lt;a href=&quot;#&quot;&gt;Freyr Hines&lt;/a&gt;&lt;/h4&gt;
+					&lt;/div&gt;
+					&lt;div class=&quot;comment-text&quot;&gt;
+						&lt;p&gt;Wufoo diigo grockit sifteo divvyshot, unigo zooomr revver. Edmodo appjet joyent skype bubbli jajah zoodles joukuu xobni hojoki edmodo appjet, mozy mzinga akismet yuntaa joost yuntaa geni tivo insala yoono chumby, grockit sococo loopt zanga etsy cloudera koofers empressr jiglu blippy. Omgpop lanyrd joukuu sococo zimbra airbnb movity jibjab, foodzie.&lt;/p&gt;
+					&lt;/div&gt;
+				&lt;/li&gt;				&lt;li class=&quot;comment-container&quot;&gt;
+					&lt;div class=&quot;comment-meta&quot;&gt;
+		&lt;img src=&quot;http://placeimg.com/100/100/people/grayscale&quot; alt=&quot;Avatar&quot; /&gt;						&lt;h4 class=&quot;comment-name&quot;&gt;&lt;a href=&quot;#&quot;&gt;Frans Keegan&lt;/a&gt;&lt;/h4&gt;
+					&lt;/div&gt;
+					&lt;div class=&quot;comment-text&quot;&gt;
+						&lt;p&gt;Like button audience atomization overcome Colbert bump Free Darko inverted pyramid we will make them pay, digital circulation strategy Like button totally blowing up on Twitter church of the savvy. Pictures of Goats section open source discuss Frontline analog thinking filters paidContent.&lt;/p&gt;
 					&lt;/div&gt;
 				&lt;/li&gt;		&lt;/ul&gt;
 	&lt;/div&gt;
@@ -2333,7 +2265,7 @@
 		<li><div class="block block-thumb">
     <a href="#" class="b-inner">
 		<div class="b-thumb">
-			<img src="../../images/fpo_square.png" alt="Square Thumbnail" />		</div>
+		</div>
 		<div class="b-text">
 			<h2 class="b-title">Lorem ipsum dolor sit (37 characters)</h2>
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
@@ -2343,7 +2275,7 @@
 		<li><div class="block block-thumb">
     <a href="#" class="b-inner">
 		<div class="b-thumb">
-			<img src="../../images/fpo_square.png" alt="Square Thumbnail" />		</div>
+		</div>
 		<div class="b-text">
 			<h2 class="b-title">Lorem ipsum dolor sit (37 characters)</h2>
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
@@ -2353,7 +2285,7 @@
 		<li><div class="block block-thumb">
     <a href="#" class="b-inner">
 		<div class="b-thumb">
-			<img src="../../images/fpo_square.png" alt="Square Thumbnail" />		</div>
+		</div>
 		<div class="b-text">
 			<h2 class="b-title">Lorem ipsum dolor sit (37 characters)</h2>
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
@@ -2363,7 +2295,7 @@
 		<li><div class="block block-thumb">
     <a href="#" class="b-inner">
 		<div class="b-thumb">
-			<img src="../../images/fpo_square.png" alt="Square Thumbnail" />		</div>
+		</div>
 		<div class="b-text">
 			<h2 class="b-title">Lorem ipsum dolor sit (37 characters)</h2>
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
@@ -2373,7 +2305,7 @@
 		<li><div class="block block-thumb">
     <a href="#" class="b-inner">
 		<div class="b-thumb">
-			<img src="../../images/fpo_square.png" alt="Square Thumbnail" />		</div>
+		</div>
 		<div class="b-text">
 			<h2 class="b-title">Lorem ipsum dolor sit (37 characters)</h2>
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
@@ -2397,7 +2329,7 @@
 		&lt;li&gt;&lt;div class=&quot;block block-thumb&quot;&gt;
     &lt;a href=&quot;#&quot; class=&quot;b-inner&quot;&gt;
 		&lt;div class=&quot;b-thumb&quot;&gt;
-			&lt;img src=&quot;../../images/fpo_square.png&quot; alt=&quot;Square Thumbnail&quot; /&gt;		&lt;/div&gt;
+		&lt;/div&gt;
 		&lt;div class=&quot;b-text&quot;&gt;
 			&lt;h2 class=&quot;b-title&quot;&gt;Lorem ipsum dolor sit (37 characters)&lt;/h2&gt;
 			&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.&lt;/p&gt;
@@ -2407,7 +2339,7 @@
 		&lt;li&gt;&lt;div class=&quot;block block-thumb&quot;&gt;
     &lt;a href=&quot;#&quot; class=&quot;b-inner&quot;&gt;
 		&lt;div class=&quot;b-thumb&quot;&gt;
-			&lt;img src=&quot;../../images/fpo_square.png&quot; alt=&quot;Square Thumbnail&quot; /&gt;		&lt;/div&gt;
+		&lt;/div&gt;
 		&lt;div class=&quot;b-text&quot;&gt;
 			&lt;h2 class=&quot;b-title&quot;&gt;Lorem ipsum dolor sit (37 characters)&lt;/h2&gt;
 			&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.&lt;/p&gt;
@@ -2417,7 +2349,7 @@
 		&lt;li&gt;&lt;div class=&quot;block block-thumb&quot;&gt;
     &lt;a href=&quot;#&quot; class=&quot;b-inner&quot;&gt;
 		&lt;div class=&quot;b-thumb&quot;&gt;
-			&lt;img src=&quot;../../images/fpo_square.png&quot; alt=&quot;Square Thumbnail&quot; /&gt;		&lt;/div&gt;
+		&lt;/div&gt;
 		&lt;div class=&quot;b-text&quot;&gt;
 			&lt;h2 class=&quot;b-title&quot;&gt;Lorem ipsum dolor sit (37 characters)&lt;/h2&gt;
 			&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.&lt;/p&gt;
@@ -2427,7 +2359,7 @@
 		&lt;li&gt;&lt;div class=&quot;block block-thumb&quot;&gt;
     &lt;a href=&quot;#&quot; class=&quot;b-inner&quot;&gt;
 		&lt;div class=&quot;b-thumb&quot;&gt;
-			&lt;img src=&quot;../../images/fpo_square.png&quot; alt=&quot;Square Thumbnail&quot; /&gt;		&lt;/div&gt;
+		&lt;/div&gt;
 		&lt;div class=&quot;b-text&quot;&gt;
 			&lt;h2 class=&quot;b-title&quot;&gt;Lorem ipsum dolor sit (37 characters)&lt;/h2&gt;
 			&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.&lt;/p&gt;
@@ -2437,7 +2369,7 @@
 		&lt;li&gt;&lt;div class=&quot;block block-thumb&quot;&gt;
     &lt;a href=&quot;#&quot; class=&quot;b-inner&quot;&gt;
 		&lt;div class=&quot;b-thumb&quot;&gt;
-			&lt;img src=&quot;../../images/fpo_square.png&quot; alt=&quot;Square Thumbnail&quot; /&gt;		&lt;/div&gt;
+		&lt;/div&gt;
 		&lt;div class=&quot;b-text&quot;&gt;
 			&lt;h2 class=&quot;b-title&quot;&gt;Lorem ipsum dolor sit (37 characters)&lt;/h2&gt;
 			&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.&lt;/p&gt;
@@ -2569,10 +2501,10 @@
 			
 		}
 	</script>
-	<script id="pl-js-polyfill-insert-1450867114">
+	<script id="pl-js-polyfill-insert-1453221578">
 		(function() {
 			if (self != top) {
-				var cb = '1450867114';
+				var cb = '1453221578';
 				var js = [];
 				if (typeof document !== "undefined" && !("classList" in document.documentElement)) {
 					js.push("styleguide/js/vendor/classlist-polyfill.js");
@@ -2581,10 +2513,10 @@
 			}
 		})();
 	</script>
-	<script id="pl-js-insert-1450867114">
+	<script id="pl-js-insert-1453221578">
 		(function() {
 			if (self != top) {
-				var cb = '1450867114';
+				var cb = '1453221578';
 				var js = [ { "src": "styleguide/js/vendor/jwerty.js", "dep": [ "styleguide/js/postmessage.js", { "src": "data/annotations.js", "dep": [ "styleguide/js/annotations-pattern.js" ] }, "styleguide/js/code-pattern.js" ] } ];
 				scriptLoader.run(js,cb,'pl-js-insert');
 			}
@@ -2595,8 +2527,8 @@
 
 		<!-- ANI JS
 			–––––––––––––––––––––––––––––––––––––––––––––––––– -->
-		<script src="../../anijs-min.js"></script>
-		<script src="../../anijs-helper-dom-min.js"></script>
+		<script src="../../js/anijs-min.js"></script>
+		<script src="../../js/anijs-helper-dom-min.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 		<script>
 			$(".goto-volume").click(function(){
