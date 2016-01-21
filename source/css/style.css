@@ -1105,7 +1105,7 @@ button, .ghost-button, .grey-button {
   height: 24px;
   padding: 0;
   border-radius: 24px;
-  background: url("cross.svg") center no-repeat;
+  background: url("../images/cross.svg") center no-repeat;
   background-size: 12px;
   transition: all 150ms ease;
   background-color: #9c9da6;
@@ -1235,11 +1235,13 @@ button, .ghost-button, .grey-button {
   align-items: center; }
 
 .add-photo-button {
-  transform: scale(1);
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+  transition: all 150ms ease;
   opacity: .75;
-  background-image: url("add-photo.svg"); }
+  background-image: url("../images/add-photo.svg"); }
   .add-photo-button:hover {
-    transform: scale(1);
     opacity: 1; }
 
 .modal-submit {
@@ -1270,7 +1272,7 @@ button, .ghost-button, .grey-button {
     .off-screen {
       transform: translate(-50%, 200%) rotate(-9deg); } }
 
-.foodReaction, .add-photo-button, .foodReaction-great, .foodReaction-meh, .foodReaction-nogood {
+.foodReaction, .foodReaction-great, .foodReaction-meh, .foodReaction-nogood {
   width: 36px;
   height: 36px;
   margin-right: 1rem;
@@ -1279,19 +1281,19 @@ button, .ghost-button, .grey-button {
   transform: scale(0.8);
   opacity: .5;
   background-repeat: no-repeat; }
-  .foodReaction:hover, .add-photo-button:hover, .foodReaction-great:hover, .foodReaction-meh:hover, .foodReaction-nogood:hover {
+  .foodReaction:hover, .foodReaction-great:hover, .foodReaction-meh:hover, .foodReaction-nogood:hover {
     transform: scale(1);
     opacity: 1;
     opacity: .75; }
 
 .foodReaction-great {
-  background-image: url("great.svg"); }
+  background-image: url("../images/great.svg"); }
 
 .foodReaction-meh {
-  background-image: url("meh.svg"); }
+  background-image: url("../images/meh.svg"); }
 
 .foodReaction-nogood {
-  background-image: url("nogood.svg"); }
+  background-image: url("../images/nogood.svg"); }
 
 .selected-reaction {
   transform: scale(1);

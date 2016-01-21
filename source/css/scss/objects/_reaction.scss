@@ -21,21 +21,21 @@
 
 .foodReaction-great
 {
-    background-image: url('great.svg');
+    background-image: url('../images/great.svg');
 
     @extend .foodReaction;
 }
 
 .foodReaction-meh
 {
-    background-image: url('meh.svg');
+    background-image: url('../images/meh.svg');
 
     @extend .foodReaction;
 }
 
 .foodReaction-nogood
 {
-    background-image: url('nogood.svg');
+    background-image: url('../images/nogood.svg');
 
     @extend .foodReaction;
 }
