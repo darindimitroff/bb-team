@@ -1,0 +1,108 @@
+body { 
+	font-family: 'Roboto', -apple-system-body, 'Helvetica', sans-serif;
+	font-size: 1rem;
+	font-weight: normal;
+	line-height: 1.5rem;
+	color: #545459;
+	background-color: #fafafa;
+	text-rendering: optimizeLegibility;
+}
+
+.label-wrapper { 
+	position: relative;
+}
+
+textarea { 
+	font-size: 1rem;
+	line-height: 1.5rem;
+	z-index: 2;
+	width: 100%;
+	margin-bottom: 1.5rem;
+	padding: .5rem 0;
+	transition: all 150ms ease;
+	color: #545459;
+	border-bottom: 1px solid #9c9da6;
+	border-radius: 0;
+	background-color: transparent;
+	height: 6rem;
+}
+
+textarea:hover { 
+	border-color: rgba(242, 73, 73, 0.5);
+}
+
+textarea:focus { 
+	border-color: #f24949;
+}
+
+textarea:hover + label { 
+	color: #f24949;
+}
+
+textarea:focus + label { 
+	transform: translateY(-50%) scale(0.75);
+	transform-origin: top left;
+	color: #f24949;
+}
+
+label { 
+	font-size: 1rem;
+	line-height: 1.5rem;
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: .5rem 0;
+	transition: all 150ms ease;
+	color: #9c9da6;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=latin,cyrillic-ext); {
+	textarea { 
+		font: inherit;
+		font-size: 100%;
+		margin: 0;
+		padding: 0;
+		vertical-align: baseline;
+		border: 0;
+		border: 0;
+		outline: 0;
+	}
+
+	* { 
+		position: relative;
+		box-sizing: inherit;
+		margin: 0;
+	}
+
+	body { 
+		line-height: 1;
+	}
+
+	html { 
+		box-sizing: border-box;
+		font-size: 16px;
+	}
+
+	textarea:focus { 
+		outline-style: none;
+	}
+
+
+}
+
+@media (min-width: 750px) {
+	html { 
+		font-size: 18px;
+	}
+
+
+}
+
+@media (min-width: 1900px) {
+	html { 
+		font-size: 24px;
+	}
+
+
+}
+

@@ -1,0 +1,77 @@
+body { 
+	font-family: 'Roboto', -apple-system-body, 'Helvetica', sans-serif;
+	font-size: 1rem;
+	font-weight: normal;
+	line-height: 1.5rem;
+	color: #545459;
+	background-color: #fafafa;
+	text-rendering: optimizeLegibility;
+}
+
+li { 
+	margin-bottom: .5rem;
+}
+
+li li { 
+	margin-left: 1rem;
+}
+
+ol { 
+	margin-bottom: .5rem;
+	list-style: none;
+	counter-reset: i 0;
+}
+
+ol ol { 
+	margin-top: .5rem;
+}
+
+.paragraph-container ol li:before { 
+	font-weight: bold;
+	margin-right: .5rem;
+	content: counter(i);
+	counter-increment: i;
+	color: #7cba2b;
+}
+
+.paragraph-container { 
+	max-width: 38rem;
+	margin-bottom: 1.5rem;
+	text-align: left;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=latin,cyrillic-ext); {
+	* { 
+		position: relative;
+		box-sizing: inherit;
+		margin: 0;
+	}
+
+	body { 
+		line-height: 1;
+	}
+
+	html { 
+		box-sizing: border-box;
+		font-size: 16px;
+	}
+
+
+}
+
+@media (min-width: 750px) {
+	html { 
+		font-size: 18px;
+	}
+
+
+}
+
+@media (min-width: 1900px) {
+	html { 
+		font-size: 24px;
+	}
+
+
+}
+

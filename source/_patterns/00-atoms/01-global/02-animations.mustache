@@ -1,1 +1,24 @@
-<div class="demo-animate animate-fade"><strong>Fade:</strong> Duration: 0.3s Easing: ease-out (Hover to see effect)</div>
+<div class="hover-transition">
+  <p>
+    <strong>$hover-transition</strong>
+    trransition: all 150ms ease; (Hover to see effect)
+  </p>
+</div>
+
+<div class="animation-transition" data-anijs="if: mouseenter, do: $addClass start-animate, to: .animation-transition-square; if:
+mouseleave, do: $removeClass start-animate, to: .animation-transition-square">
+  <p>
+    <strong>$animation-transition</strong>
+    trransition: all 300ms cubic-bezier(.5, .1, 0, 1); (Hover to see effect)
+  </p>
+  <div class="animation-transition-square"></div>
+</div>
+
+<div class="bouncy-transition"  data-anijs="if: mouseenter, do: $addClass bounce-animate, to: .bouncy-transition-square; if:
+mouseleave, do: $removeClass bounce-animate, to: .bouncy-transition-square">
+  <p>
+    <strong>$bouncy-transition</strong>
+    trransition: all 300ms cubic-bezier(.5, .1, 0, 1.2) (Hover to see effect);
+  </p>
+  <div class="bouncy-transition-square"></div>
+</div>

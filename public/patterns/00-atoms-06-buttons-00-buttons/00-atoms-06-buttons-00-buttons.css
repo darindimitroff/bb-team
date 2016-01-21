@@ -1,0 +1,145 @@
+body { 
+	font-family: 'Roboto', -apple-system-body, 'Helvetica', sans-serif;
+	font-size: 1rem;
+	font-weight: normal;
+	line-height: 1.5rem;
+	color: #545459;
+	background-color: #fafafa;
+	text-rendering: optimizeLegibility;
+}
+
+button, .ghost-button, .grey-button { 
+	font-size: 16px;
+	font-weight: 500;
+	margin-bottom: 1.5rem;
+	padding: 8px 16px 7px 16px;
+	cursor: pointer;
+	transition: all 150ms ease;
+	letter-spacing: .6px;
+	text-transform: uppercase;
+	color: #fff;
+	border-radius: 5px;
+	transition: all 150ms ease;
+	background-color: #8bc541;
+	-webkit-backface-visibility: hidden;
+	-webkit-tap-highlight-color: transparent;
+}
+
+button:hover, .ghost-button:hover, .grey-button:hover { 
+	background-color: #78ad35;
+}
+
+.ghost-button { 
+	color: #7cba2b;
+	background-color: transparent;
+	box-shadow: 0 0 0 2px #7cba2b inset;
+}
+
+.ghost-button:hover { 
+	color: #fff;
+	box-shadow: none;
+	transition: all 150ms ease;
+	background-color: #8bc541;
+	-webkit-backface-visibility: hidden;
+}
+
+.ghost-button:hover:hover { 
+	background-color: #78ad35;
+}
+
+.ghost-button:hover:active { 
+	transform: scale(0.98);
+	background-color: #9ccd5c;
+}
+
+.grey-button { 
+	color: #9c9da6;
+	background-color: transparent;
+	box-shadow: 0 0 0 2px #9c9da6 inset;
+}
+
+.grey-button:hover { 
+	color: #fff;
+	box-shadow: none;
+	transition: all 150ms ease;
+	background-color: #9c9da6;
+	-webkit-backface-visibility: hidden;
+}
+
+.grey-button:hover:hover { 
+	background-color: #898a95;
+}
+
+.grey-button:hover:active { 
+	transform: scale(0.98);
+	background-color: #afb0b7;
+}
+
+.add-fab { 
+	width: 64px;
+	height: 64px;
+	margin-bottom: 0;
+	transform: rotate(45deg);
+	border-radius: 50%;
+	background: url(&quot;../images/cross.svg&quot;) center no-repeat rgba(139, 197, 65, 0.65);
+	background-size: 18px;
+}
+
+.add-fab:hover { 
+	background-color: #8bc541;
+}
+
+.modal-submit { 
+	width: 54px;
+	height: 54px;
+	margin-bottom: 0;
+	margin-left: auto;
+	padding: 0;
+	border-radius: 72px;
+	background: url(&quot;../images/submit.svg&quot;) center no-repeat #f24949;
+	align-self: flex-end;
+	flex-grow: 0;
+	transition: all 150ms ease;
+	background-color: #f24949;
+	-webkit-backface-visibility: hidden;
+}
+
+.modal-submit:hover { 
+	background-color: #f02828;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=latin,cyrillic-ext); {
+	* { 
+		position: relative;
+		box-sizing: inherit;
+		margin: 0;
+	}
+
+	body { 
+		line-height: 1;
+	}
+
+	html { 
+		box-sizing: border-box;
+		font-size: 16px;
+	}
+
+
+}
+
+@media (min-width: 750px) {
+	html { 
+		font-size: 18px;
+	}
+
+
+}
+
+@media (min-width: 1900px) {
+	html { 
+		font-size: 24px;
+	}
+
+
+}
+

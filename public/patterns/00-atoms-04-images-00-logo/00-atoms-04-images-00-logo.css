@@ -1,0 +1,74 @@
+body { 
+	font-family: 'Roboto', -apple-system-body, 'Helvetica', sans-serif;
+	font-size: 1rem;
+	font-weight: normal;
+	line-height: 1.5rem;
+	color: #545459;
+	background-color: #fafafa;
+	text-rendering: optimizeLegibility;
+}
+
+svg { 
+	transition: all 150ms ease;
+	fill: currentColor;
+}
+
+.logo { 
+	width: 111px;
+	padding-top: 12px;
+	order: 2;
+}
+
+.logo svg { 
+	max-width: 111px;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=latin,cyrillic-ext); {
+	* { 
+		position: relative;
+		box-sizing: inherit;
+		margin: 0;
+	}
+
+	body { 
+		line-height: 1;
+	}
+
+	a { 
+		text-decoration: none;
+		color: inherit;
+	}
+
+	html { 
+		box-sizing: border-box;
+		font-size: 16px;
+	}
+
+
+}
+
+@media (min-width: 750px) {
+	html { 
+		font-size: 18px;
+	}
+
+
+}
+
+@media (min-width: 1900px) {
+	html { 
+		font-size: 24px;
+	}
+
+
+}
+
+@media (min-width: 1000px) {
+	.logo { 
+		padding-top: 18px;
+		order: 1;
+	}
+
+
+}
+

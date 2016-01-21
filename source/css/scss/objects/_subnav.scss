@@ -14,10 +14,10 @@
     padding-left: .75rem;
 
     transform: translateY(-100%);
+    opacity: 0;
     text-align: left;
     white-space: nowrap;
 
-    opacity: 1;
     color: $yellow;
     background-color: #fff;
 
@@ -41,4 +41,5 @@
 {
     transition: $animation-transition;
     transform: translateY(0);
+    opacity: 1;
 }

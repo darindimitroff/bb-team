@@ -1,0 +1,99 @@
+body { 
+	font-family: 'Roboto', -apple-system-body, 'Helvetica', sans-serif;
+	font-size: 1rem;
+	font-weight: normal;
+	line-height: 1.5rem;
+	color: #545459;
+	background-color: #fafafa;
+	text-rendering: optimizeLegibility;
+}
+
+.paragraph-container a { 
+	transition: all 150ms ease;
+	color: inherit;
+	border-bottom: 3px solid #d5f5ab;
+}
+
+.paragraph-container a:hover, .paragraph-container mark { 
+	border-radius: 2px;
+	background-color: #d5f5ab;
+}
+
+p { 
+	margin-bottom: 1rem;
+	text-align: left;
+}
+
+strong { 
+	font-weight: bold;
+}
+
+em { 
+	font-style: italic;
+}
+
+sup { 
+	font-size: .75rem;
+	vertical-align: super;
+}
+
+small { 
+	font-size: .75rem;
+	font-weight: 500;
+}
+
+sub { 
+	font-size: .75rem;
+	vertical-align: sub;
+}
+
+mark { 
+	color: #545459;
+}
+
+.paragraph-container { 
+	max-width: 38rem;
+	margin-bottom: 1.5rem;
+	text-align: left;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=latin,cyrillic-ext); {
+	* { 
+		position: relative;
+		box-sizing: inherit;
+		margin: 0;
+	}
+
+	body { 
+		line-height: 1;
+	}
+
+	a { 
+		text-decoration: none;
+		color: inherit;
+	}
+
+	html { 
+		box-sizing: border-box;
+		font-size: 16px;
+	}
+
+
+}
+
+@media (min-width: 750px) {
+	html { 
+		font-size: 18px;
+	}
+
+
+}
+
+@media (min-width: 1900px) {
+	html { 
+		font-size: 24px;
+	}
+
+
+}
+
