@@ -2384,15 +2384,6 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/public\/patterns\/00-atoms-01-global-00-colors\/00-atoms-01-global-00-colors.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/public\/patterns\/00-atoms-01-global-00-colors\/00-atoms-01-global-00-colors.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/public\/patterns\/00-atoms-01-global-00-colors\/00-atoms-01-global-00-colors.escaped.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -2411,15 +2402,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/public\/patterns\/00-atoms-01-global-01-fonts\/00-atoms-01-global-01-fonts.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/public\/patterns\/00-atoms-01-global-01-fonts\/00-atoms-01-global-01-fonts.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/public\/patterns\/00-atoms-01-global-01-fonts\/00-atoms-01-global-01-fonts.escaped.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -2434,15 +2416,6 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/public\/patterns\/00-atoms-01-global-01-fonts\/00-atoms-01-global-01-fonts.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/public\/patterns\/00-atoms-01-global-02-animations\/00-atoms-01-global-02-animations.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/public\/patterns\/00-atoms-01-global-02-animations\/00-atoms-01-global-02-animations.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -2474,15 +2447,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/public\/patterns\/00-atoms-02-text-00-headings\/00-atoms-02-text-00-headings.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/public\/patterns\/00-atoms-02-text-00-headings\/00-atoms-02-text-00-headings.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/public\/patterns\/00-atoms-02-text-00-headings\/00-atoms-02-text-00-headings.escaped.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -2497,15 +2461,6 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/public\/patterns\/00-atoms-02-text-00-headings\/00-atoms-02-text-00-headings.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/public\/patterns\/00-atoms-02-text-01-paragraph\/00-atoms-02-text-01-paragraph.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/public\/patterns\/00-atoms-02-text-01-paragraph\/00-atoms-02-text-01-paragraph.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -2528,15 +2483,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/public\/patterns\/00-atoms-02-text-02-blockquote\/00-atoms-02-text-02-blockquote.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/public\/patterns\/00-atoms-02-text-02-blockquote\/00-atoms-02-text-02-blockquote.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/public\/patterns\/00-atoms-02-text-02-blockquote\/00-atoms-02-text-02-blockquote.escaped.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -2555,15 +2501,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/public\/patterns\/00-atoms-02-text-03-inline-elements\/00-atoms-02-text-03-inline-elements.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/public\/patterns\/00-atoms-02-text-03-inline-elements\/00-atoms-02-text-03-inline-elements.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/public\/patterns\/00-atoms-02-text-03-inline-elements\/00-atoms-02-text-03-inline-elements.escaped.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -2578,15 +2515,6 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/public\/patterns\/00-atoms-02-text-03-inline-elements\/00-atoms-02-text-03-inline-elements.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/public\/patterns\/00-atoms-02-text-04-time\/00-atoms-02-text-04-time.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/public\/patterns\/00-atoms-02-text-04-time\/00-atoms-02-text-04-time.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -2618,15 +2546,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/public\/patterns\/00-atoms-03-lists-00-unordered\/00-atoms-03-lists-00-unordered.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/public\/patterns\/00-atoms-03-lists-00-unordered\/00-atoms-03-lists-00-unordered.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/public\/patterns\/00-atoms-03-lists-00-unordered\/00-atoms-03-lists-00-unordered.escaped.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -2641,15 +2560,6 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/public\/patterns\/00-atoms-03-lists-00-unordered\/00-atoms-03-lists-00-unordered.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/public\/patterns\/00-atoms-03-lists-01-ordered\/00-atoms-03-lists-01-ordered.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/public\/patterns\/00-atoms-03-lists-01-ordered\/00-atoms-03-lists-01-ordered.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -2681,15 +2591,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/public\/patterns\/00-atoms-04-images-00-logo\/00-atoms-04-images-00-logo.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/public\/patterns\/00-atoms-04-images-00-logo\/00-atoms-04-images-00-logo.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/public\/patterns\/00-atoms-04-images-00-logo\/00-atoms-04-images-00-logo.escaped.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -2704,15 +2605,6 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/public\/patterns\/00-atoms-04-images-00-logo\/00-atoms-04-images-00-logo.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/public\/patterns\/00-atoms-04-images-04-avatar\/00-atoms-04-images-04-avatar.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/public\/patterns\/00-atoms-04-images-04-avatar\/00-atoms-04-images-04-avatar.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -2735,15 +2627,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/public\/patterns\/00-atoms-04-images-05-icons\/00-atoms-04-images-05-icons.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/public\/patterns\/00-atoms-04-images-05-icons\/00-atoms-04-images-05-icons.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/public\/patterns\/00-atoms-04-images-05-icons\/00-atoms-04-images-05-icons.escaped.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -2762,15 +2645,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/public\/patterns\/00-atoms-04-images-06-loading-icon\/00-atoms-04-images-06-loading-icon.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/public\/patterns\/00-atoms-04-images-06-loading-icon\/00-atoms-04-images-06-loading-icon.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/public\/patterns\/00-atoms-04-images-06-loading-icon\/00-atoms-04-images-06-loading-icon.escaped.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -2785,15 +2659,6 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/public\/patterns\/00-atoms-04-images-06-loading-icon\/00-atoms-04-images-06-loading-icon.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/public\/patterns\/00-atoms-04-images-07-favicon\/00-atoms-04-images-07-favicon.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/public\/patterns\/00-atoms-04-images-07-favicon\/00-atoms-04-images-07-favicon.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -2825,15 +2690,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/public\/patterns\/00-atoms-05-forms-00-text-fields\/00-atoms-05-forms-00-text-fields.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/public\/patterns\/00-atoms-05-forms-00-text-fields\/00-atoms-05-forms-00-text-fields.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/public\/patterns\/00-atoms-05-forms-00-text-fields\/00-atoms-05-forms-00-text-fields.escaped.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -2857,15 +2713,6 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/public\/patterns\/00-atoms-05-forms\/index.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/public\/patterns\/00-atoms-06-buttons-00-buttons\/00-atoms-06-buttons-00-buttons.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/public\/patterns\/00-atoms-06-buttons-00-buttons\/00-atoms-06-buttons-00-buttons.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -2897,15 +2744,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/public\/patterns\/00-atoms-07-tables-00-table\/00-atoms-07-tables-00-table.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/public\/patterns\/00-atoms-07-tables-00-table\/00-atoms-07-tables-00-table.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/public\/patterns\/00-atoms-07-tables-00-table\/00-atoms-07-tables-00-table.escaped.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -2933,15 +2771,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/public\/patterns\/01-molecules-00-text-00-byline\/01-molecules-00-text-00-byline.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/public\/patterns\/01-molecules-00-text-00-byline\/01-molecules-00-text-00-byline.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/public\/patterns\/01-molecules-00-text-00-byline\/01-molecules-00-text-00-byline.escaped.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -2956,15 +2785,6 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/public\/patterns\/01-molecules-00-text-00-byline\/01-molecules-00-text-00-byline.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/public\/patterns\/01-molecules-00-text-02-heading-group\/01-molecules-00-text-02-heading-group.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/public\/patterns\/01-molecules-00-text-02-heading-group\/01-molecules-00-text-02-heading-group.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -2987,15 +2807,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/public\/patterns\/01-molecules-00-text-03-blockquote-with-citation\/01-molecules-00-text-03-blockquote-with-citation.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/public\/patterns\/01-molecules-00-text-03-blockquote-with-citation\/01-molecules-00-text-03-blockquote-with-citation.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/public\/patterns\/01-molecules-00-text-03-blockquote-with-citation\/01-molecules-00-text-03-blockquote-with-citation.escaped.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -3010,15 +2821,6 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/public\/patterns\/01-molecules-00-text-03-blockquote-with-citation\/01-molecules-00-text-03-blockquote-with-citation.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/public\/patterns\/01-molecules-00-text-04-intro-text\/01-molecules-00-text-04-intro-text.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/public\/patterns\/01-molecules-00-text-04-intro-text\/01-molecules-00-text-04-intro-text.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -3050,15 +2852,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/public\/patterns\/01-molecules-02-blocks-01-block-headline-byline\/01-molecules-02-blocks-01-block-headline-byline.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/public\/patterns\/01-molecules-02-blocks-01-block-headline-byline\/01-molecules-02-blocks-01-block-headline-byline.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/public\/patterns\/01-molecules-02-blocks-01-block-headline-byline\/01-molecules-02-blocks-01-block-headline-byline.escaped.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -3086,15 +2879,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/public\/patterns\/01-molecules-04-forms-03-add-reaction\/01-molecules-04-forms-03-add-reaction.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/public\/patterns\/01-molecules-04-forms-03-add-reaction\/01-molecules-04-forms-03-add-reaction.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/public\/patterns\/01-molecules-04-forms-03-add-reaction\/01-molecules-04-forms-03-add-reaction.escaped.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -3109,15 +2893,6 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/public\/patterns\/01-molecules-04-forms-03-add-reaction\/01-molecules-04-forms-03-add-reaction.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/public\/patterns\/01-molecules-04-forms-04-add-photo\/01-molecules-04-forms-04-add-photo.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/public\/patterns\/01-molecules-04-forms-04-add-photo\/01-molecules-04-forms-04-add-photo.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -3149,15 +2924,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/public\/patterns\/02-organisms-00-global-00-primary-nav\/02-organisms-00-global-00-primary-nav.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/public\/patterns\/02-organisms-00-global-00-primary-nav\/02-organisms-00-global-00-primary-nav.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/public\/patterns\/02-organisms-00-global-00-primary-nav\/02-organisms-00-global-00-primary-nav.escaped.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -3176,15 +2942,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/public\/patterns\/02-organisms-00-global-01-header\/02-organisms-00-global-01-header.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/public\/patterns\/02-organisms-00-global-01-header\/02-organisms-00-global-01-header.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/public\/patterns\/02-organisms-00-global-01-header\/02-organisms-00-global-01-header.escaped.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -3199,15 +2956,6 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/public\/patterns\/02-organisms-00-global-01-header\/02-organisms-00-global-01-header.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/public\/patterns\/02-organisms-00-global-02-footer\/02-organisms-00-global-02-footer.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/public\/patterns\/02-organisms-00-global-02-footer\/02-organisms-00-global-02-footer.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -3235,15 +2983,6 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/public\/patterns\/02-organisms-00-global\/index.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/public\/patterns\/02-organisms-01-article-00-article-body\/02-organisms-01-article-00-article-body.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/public\/patterns\/02-organisms-01-article-00-article-body\/02-organisms-01-article-00-article-body.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
