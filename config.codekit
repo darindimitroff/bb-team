@@ -2221,6 +2221,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/public\/images\/nuts.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 162222,
+		"inputAbbreviatedPath": "\/public\/images\/nuts.jpg",
+		"outputAbbreviatedPath": "\/public\/images\/nuts.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/images\/nuts@2x.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 291114,
+		"inputAbbreviatedPath": "\/public\/images\/nuts@2x.jpg",
+		"outputAbbreviatedPath": "\/public\/images\/nuts@2x.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/public\/images\/sample\/landscape-16x9-mountains.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -2373,12 +2395,45 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/public\/js\/min\/retina-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/js\/min\/retina-min.js",
+		"outputAbbreviatedPath": "\/public\/js\/min\/min\/retina-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/public\/js\/modernizr 2.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/js\/modernizr 2.js",
+		"outputAbbreviatedPath": "\/public\/js\/min\/modernizr 2-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/public\/js\/modernizr.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/public\/js\/modernizr.js",
 		"outputAbbreviatedPath": "\/public\/js\/min\/modernizr-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/public\/js\/retina.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/js\/retina.js",
+		"outputAbbreviatedPath": "\/public\/js\/min\/retina-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -2483,6 +2538,24 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/public\/patterns\/00-atoms-02-text-02-blockquote 2\/00-atoms-02-text-02-blockquote 2.escaped.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/patterns\/00-atoms-02-text-02-blockquote 2\/00-atoms-02-text-02-blockquote 2.escaped.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/patterns\/00-atoms-02-text-02-blockquote 2\/00-atoms-02-text-02-blockquote 2.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/patterns\/00-atoms-02-text-02-blockquote 2\/00-atoms-02-text-02-blockquote 2.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/public\/patterns\/00-atoms-02-text-02-blockquote\/00-atoms-02-text-02-blockquote.escaped.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -2519,6 +2592,42 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/public\/patterns\/00-atoms-02-text-03-pullquote\/00-atoms-02-text-03-pullquote.escaped.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/patterns\/00-atoms-02-text-03-pullquote\/00-atoms-02-text-03-pullquote.escaped.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/patterns\/00-atoms-02-text-03-pullquote\/00-atoms-02-text-03-pullquote.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/patterns\/00-atoms-02-text-03-pullquote\/00-atoms-02-text-03-pullquote.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/patterns\/00-atoms-02-text-04-inline-elements\/00-atoms-02-text-04-inline-elements.escaped.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/patterns\/00-atoms-02-text-04-inline-elements\/00-atoms-02-text-04-inline-elements.escaped.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/patterns\/00-atoms-02-text-04-inline-elements\/00-atoms-02-text-04-inline-elements.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/patterns\/00-atoms-02-text-04-inline-elements\/00-atoms-02-text-04-inline-elements.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/public\/patterns\/00-atoms-02-text-04-time\/00-atoms-02-text-04-time.escaped.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -2533,6 +2642,24 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/public\/patterns\/00-atoms-02-text-04-time\/00-atoms-02-text-04-time.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/patterns\/00-atoms-02-text-05-time\/00-atoms-02-text-05-time.escaped.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/patterns\/00-atoms-02-text-05-time\/00-atoms-02-text-05-time.escaped.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/patterns\/00-atoms-02-text-05-time\/00-atoms-02-text-05-time.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/patterns\/00-atoms-02-text-05-time\/00-atoms-02-text-05-time.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -2663,6 +2790,24 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/public\/patterns\/00-atoms-04-images-07-favicon 2\/00-atoms-04-images-07-favicon 2.escaped.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/patterns\/00-atoms-04-images-07-favicon 2\/00-atoms-04-images-07-favicon 2.escaped.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/patterns\/00-atoms-04-images-07-favicon 2\/00-atoms-04-images-07-favicon 2.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/patterns\/00-atoms-04-images-07-favicon 2\/00-atoms-04-images-07-favicon 2.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/public\/patterns\/00-atoms-04-images-07-favicon\/00-atoms-04-images-07-favicon.escaped.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -2677,6 +2822,114 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/public\/patterns\/00-atoms-04-images-07-favicon\/00-atoms-04-images-07-favicon.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/patterns\/00-atoms-04-images-08-favicon\/00-atoms-04-images-08-favicon.escaped.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/patterns\/00-atoms-04-images-08-favicon\/00-atoms-04-images-08-favicon.escaped.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/patterns\/00-atoms-04-images-08-favicon\/00-atoms-04-images-08-favicon.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/patterns\/00-atoms-04-images-08-favicon\/00-atoms-04-images-08-favicon.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/patterns\/00-atoms-04-images-08-images\/00-atoms-04-images-08-images.escaped.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/patterns\/00-atoms-04-images-08-images\/00-atoms-04-images-08-images.escaped.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/patterns\/00-atoms-04-images-08-images\/00-atoms-04-images-08-images.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/patterns\/00-atoms-04-images-08-images\/00-atoms-04-images-08-images.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/patterns\/00-atoms-04-images-08-inline-image 2\/00-atoms-04-images-08-inline-image 2.escaped.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/patterns\/00-atoms-04-images-08-inline-image 2\/00-atoms-04-images-08-inline-image 2.escaped.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/patterns\/00-atoms-04-images-08-inline-image 2\/00-atoms-04-images-08-inline-image 2.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/patterns\/00-atoms-04-images-08-inline-image 2\/00-atoms-04-images-08-inline-image 2.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/patterns\/00-atoms-04-images-08-inline-image\/00-atoms-04-images-08-inline-image.escaped.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/patterns\/00-atoms-04-images-08-inline-image\/00-atoms-04-images-08-inline-image.escaped.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/patterns\/00-atoms-04-images-08-inline-image\/00-atoms-04-images-08-inline-image.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/patterns\/00-atoms-04-images-08-inline-image\/00-atoms-04-images-08-inline-image.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/patterns\/00-atoms-04-images-09-inline-image-with-comment\/00-atoms-04-images-09-inline-image-with-comment.escaped.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/patterns\/00-atoms-04-images-09-inline-image-with-comment\/00-atoms-04-images-09-inline-image-with-comment.escaped.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/patterns\/00-atoms-04-images-09-inline-image-with-comment\/00-atoms-04-images-09-inline-image-with-comment.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/patterns\/00-atoms-04-images-09-inline-image-with-comment\/00-atoms-04-images-09-inline-image-with-comment.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/patterns\/00-atoms-04-images-09-inline-image-with-text\/00-atoms-04-images-09-inline-image-with-text.escaped.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/patterns\/00-atoms-04-images-09-inline-image-with-text\/00-atoms-04-images-09-inline-image-with-text.escaped.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/patterns\/00-atoms-04-images-09-inline-image-with-text\/00-atoms-04-images-09-inline-image-with-text.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/patterns\/00-atoms-04-images-09-inline-image-with-text\/00-atoms-04-images-09-inline-image-with-text.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -2875,6 +3128,51 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/public\/patterns\/01-molecules-02-blocks\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/patterns\/01-molecules-03-media-01-image-with-text\/01-molecules-03-media-01-image-with-text.escaped.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/patterns\/01-molecules-03-media-01-image-with-text\/01-molecules-03-media-01-image-with-text.escaped.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/patterns\/01-molecules-03-media-01-image-with-text\/01-molecules-03-media-01-image-with-text.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/patterns\/01-molecules-03-media-01-image-with-text\/01-molecules-03-media-01-image-with-text.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/patterns\/01-molecules-03-media-02-animations\/01-molecules-03-media-02-animations.escaped.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/patterns\/01-molecules-03-media-02-animations\/01-molecules-03-media-02-animations.escaped.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/patterns\/01-molecules-03-media-02-animations\/01-molecules-03-media-02-animations.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/patterns\/01-molecules-03-media-02-animations\/01-molecules-03-media-02-animations.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/patterns\/01-molecules-03-media\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/patterns\/01-molecules-03-media\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -3818,6 +4116,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/source\/images\/nuts.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 162222,
+		"inputAbbreviatedPath": "\/source\/images\/nuts.jpg",
+		"outputAbbreviatedPath": "\/source\/images\/nuts.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/source\/images\/nuts@2x.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 291114,
+		"inputAbbreviatedPath": "\/source\/images\/nuts@2x.jpg",
+		"outputAbbreviatedPath": "\/source\/images\/nuts@2x.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/source\/images\/sample\/landscape-16x9-mountains.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -3961,12 +4281,34 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/source\/js\/min\/retina-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/source\/js\/min\/retina-min.js",
+		"outputAbbreviatedPath": "\/source\/js\/min\/min\/retina-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/source\/js\/modernizr.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/source\/js\/modernizr.js",
 		"outputAbbreviatedPath": "\/source\/js\/min\/modernizr-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/source\/js\/retina.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/source\/js\/retina.js",
+		"outputAbbreviatedPath": "\/source\/js\/min\/retina-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,

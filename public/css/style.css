@@ -353,7 +353,6 @@ blockquote {
 
 @media (min-width: 750px) {
   .pull-quote {
-    float: left;
     width: 50%; } }
 
 .slug {
@@ -389,9 +388,22 @@ ol {
   counter-increment: i;
   color: #7cba2b; }
 
+img {
+  max-width: 100%; }
+
 svg {
   transition: all 150ms ease;
   fill: currentColor; }
+
+figure {
+  background-color: #fff;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
+  border-radius: 6px;
+  overflow: hidden; }
+
+figcaption {
+  padding: 0 1rem 1rem 1rem;
+  margin-top: -.75rem; }
 
 .label-wrapper {
   position: relative; }
@@ -445,14 +457,13 @@ label {
   width: 100%;
   position: relative;
   overflow-x: scroll;
-  -webkit-overflow-scrolling: touch; }
-
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-  width: 100%;
+  -webkit-overflow-scrolling: touch;
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
   border-radius: 6px;
+  margin-bottom: 1rem; }
+
+table {
+  width: 100%;
   overflow: hidden;
   position: relative;
   display: block; }
@@ -463,13 +474,13 @@ th {
   text-align: right;
   color: #7cba2b;
   background-color: #fff;
-  border-bottom: 1px solid rgba(156, 157, 166, 0.15);
+  box-shadow: inset 0px -1px 0px 0px rgba(156, 157, 166, 0.15);
   white-space: nowrap; }
 
 td {
   padding: 1rem;
   text-align: right;
-  border-bottom: 1px solid rgba(156, 157, 166, 0.15); }
+  box-shadow: inset 0px -1px 0px 0px rgba(156, 157, 166, 0.15); }
 
 td:first-child, th:first-child {
   text-align: left;
@@ -485,11 +496,14 @@ tbody tr:hover {
   transition: all 150ms ease; }
 
 tbody tr:last-child td {
-  border-bottom: 0; }
+  box-shadow: none; }
 
-@media (min-width: 550px) {
-  .table-nav-tooltip {
-    display: none; } }
+.table-nav-tooltip {
+  color: #9c9da6;
+  text-align: center; }
+  @media (min-width: 550px) {
+    .table-nav-tooltip {
+      display: none; } }
 
 section {
   padding: 1.5rem 0rem 1.5rem 0rem; }
